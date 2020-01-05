@@ -1,0 +1,1 @@
+export default ({isHome}) => isHome ? <div>Home</div> : <div>about</div>
