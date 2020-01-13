@@ -1,5 +1,27 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\index.js"],{
 
+/***/ "./assets/multimeter_blue.svg":
+/*!************************************!*\
+  !*** ./assets/multimeter_blue.svg ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMzUuMzU1IiBoZWlnaHQ9IjEzNy4yNzciIHZpZXdCb3g9IjAgMCAxMzUuMzU1IDEzNy4yNzciPjxkZWZzPjxzdHlsZT4uYXtmaWxsOiMzNTRlYTA7fTwvc3R5bGU+PC9kZWZzPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDc3LjY4IDApIj48cGF0aCBjbGFzcz0iYSIgZD0iTTI3NS44NjgsMTk3Ljg1M1YxODUuODM3YTIuMDc1LDIuMDc1LDAsMCwwLS4xMi0uNzUxbC0yLjQtNy4yMDlhMi4zODksMi4zODksMCwwLDAtMi4yODMtMS42NTJWMTU3aC00LjgwNnYxOS4yMjVhMi40MTgsMi40MTgsMCwwLDAtMi4yODMsMS42NTJsLTIuNCw3LjIwOWEyLjE4MywyLjE4MywwLDAsMC0uMTIuNzUxdjEyLjAxNmgtNC44MDZ2NC44MDZoNC44MDZ2NjAuMDc3YTIuNDEsMi40MSwwLDAsMCwyLjQsMi40aDIuNHYxNi44MjJhNC44Miw0LjgyLDAsMCwxLTQuODA2LDQuODA2SDIyM3Y0LjgwNmgzOC40NWE5LjYsOS42LDAsMCwwLDkuNjEyLTkuNjEyVjI2NS4xNGgyLjRhMi40MSwyLjQxLDAsMCwwLDIuNC0yLjRWMjAyLjY1OWg0LjgwNnYtNC44MDZabS00LjgwNiw2Mi40ODFoLTQuODA2VjIwMi42NTloNC44MDZabTAtNjIuNDgxaC00LjgwNlYxODYuMjI4bDEuNzQyLTUuMmgxLjM1MmwxLjc0Miw1LjJ2MTEuNjI1WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTIyMyAtMTU3KSIvPjwvZz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg3Ny42OCAwKSI+PHBhdGggY2xhc3M9ImEiIGQ9Ik0yNDcuMDMxLDE5Ny44NTNWMTg1LjgzN2EyLjA3NCwyLjA3NCwwLDAsMC0uMTItLjc1MWwtMi40LTcuMjA5YTIuMzksMi4zOSwwLDAsMC0yLjI4My0xLjY1MlYxNTdoLTQuODA2djE5LjIyNWEyLjQxOCwyLjQxOCwwLDAsMC0yLjI4MywxLjY1MmwtMi40LDcuMjA5YTIuMTgzLDIuMTgzLDAsMCwwLS4xMi43NTF2MTIuMDE2aC00LjgwNnY0LjgwNmg0LjgwNnY2MC4wNzdhMi40MSwyLjQxLDAsMCwwLDIuNCwyLjRoMi40djkuNjEyYTIuNDEsMi40MSwwLDAsMS0yLjQsMi40SDIyM3Y0LjgwNmgxMi4wMTZhNy4xOTIsNy4xOTIsMCwwLDAsNy4yMDktNy4yMDlWMjY1LjE0aDIuNGEyLjQxLDIuNDEsMCwwLDAsMi40LTIuNFYyMDIuNjU5aDQuODA2di00LjgwNlptLTQuODA2LDYyLjQ4MWgtNC44MDZWMjAyLjY1OWg0LjgwNlptMC02Mi40ODFoLTQuODA2VjE4Ni4yMjhsMS43NDItNS4yaDEuMzUybDEuNzQyLDUuMnYxMS42MjVaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMjIzIC0xNTcpIi8+PC9nPjxwYXRoIGNsYXNzPSJhIiBkPSJNMjg2Ljc3NSwzMjkuM2gtMS43MTJhMi4xNTQsMi4xNTQsMCwwLDEtMi4xNjMtMi4xNjNWMjUyLjE2M0EyLjE1NCwyLjE1NCwwLDAsMSwyODUuMDYzLDI1MGgxLjcxMmEyLjE1NCwyLjE1NCwwLDAsMSwyLjE2MywyLjE2M1YzMjcuMTdBMi4xNDcsMi4xNDcsMCwwLDEsMjg2Ljc3NSwzMjkuM1oiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xODcuMjI3IC0yMjIuMDY0KSIvPjxwYXRoIGNsYXNzPSJhIiBkPSJNMjcwLjU5LDMxNS44MWgtNS42NDdhMi4wNDUsMi4wNDUsMCwwLDEtMi4wNDMtMi4wNDNWMjMyLjU0M2EyLjA0NSwyLjA0NSwwLDAsMSwyLjA0My0yLjA0M2g1LjY0N2EyLjA0NSwyLjA0NSwwLDAsMSwyLjA0MywyLjA0M3Y4MS4yMjVBMi4wMjYsMi4wMjYsMCwwLDEsMjcwLjU5LDMxNS44MVoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xNzMuMjM0IC0yMDguNDIxKSIvPjxwYXRoIGNsYXNzPSJhIiBkPSJNMzY2LjQ5LDMxNS44MWgtNS42NDdhMi4wNDUsMi4wNDUsMCwwLDEtMi4wNDMtMi4wNDNWMjMyLjU0M2EyLjA0NSwyLjA0NSwwLDAsMSwyLjA0My0yLjA0M2g1LjY0N2EyLjA0NSwyLjA0NSwwLDAsMSwyLjA0MywyLjA0M3Y4MS4yMjVBMi4wNjQsMi4wNjQsMCwwLDEsMzY2LjQ5LDMxNS44MVoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yNDAuMzI3IC0yMDguNDIxKSIvPjxyZWN0IGNsYXNzPSJhIiB3aWR0aD0iMjIuNjc5IiBoZWlnaHQ9IjQuNzc2IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg2NS41MTUgMTIwLjE4NSkiLz48cmVjdCBjbGFzcz0iYSIgd2lkdGg9IjIyLjY3OSIgaGVpZ2h0PSI0Ljc3NiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNjYuOTg2IDEyOS43OTcpIi8+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCA0LjA1NSkiPjxwYXRoIGNsYXNzPSJhIiBkPSJNNTkuMjY0LDM4Mi4yNzdsLS4wOS0uMDlhMi4zODYsMi4zODYsMCwwLDAtMy4zLjAzTDI1LjU5LDQxMi41YTIuMzU3LDIuMzU3LDAsMCwwLS4wMywzLjNsLjEyLjEyYTIuNDE1LDIuNDE1LDAsMCwwLDMuMy0uMDNsMzAuMjQ5LTMwLjMwOUEyLjM1NywyLjM1NywwLDAsMCw1OS4yNjQsMzgyLjI3N1oiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC02LjcyNiAtMzE4LjE0NCkiLz48cGF0aCBjbGFzcz0iYSIgZD0iTTM4LjksMzYzLjM2NEEyMy43NzksMjMuNzc5LDAsMCwwLDYuNzYzLDM5NS41MDVhNi41OTMsNi41OTMsMCwwLDEsLjg0MS0xLjAyMUwzNy44ODQsMzY0LjJDMzguMjE0LDM2My45LDM4LjU0NCwzNjMuNjM0LDM4LjksMzYzLjM2NFoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDcuODk1IC0zMDMuNDk2KSIvPjxwYXRoIGNsYXNzPSJhIiBkPSJNNC41NDEsMjE5LjkzM2g0Ni41M2EuOTg3Ljk4NywwLDAsMSwuNTExLjEyVjIxMC4ySDR2OS44NTNBMS4xNzgsMS4xNzgsMCwwLDEsNC41NDEsMjE5LjkzM1oiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDcuODk1IC0xOTguMjc1KSIvPjxwYXRoIGNsYXNzPSJhIiBkPSJNNzguMzQxLDQwMi44YTYuNiw2LjYsMCwwLDEtLjg0MSwxLjAyMUw0Ny4yMjEsNDM0LjFhNi45MTYsNi45MTYsMCwwLDEtMS4wMjEuODQxQTIzLjc3OCwyMy43NzgsMCwwLDAsNzguMzQxLDQwMi44WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTIxLjYyOCAtMzMzLjAyKSIvPjxwYXRoIGNsYXNzPSJhIiBkPSJNNTEuMTQxLDI1MC42Mkg0LjYxMWEuOTg3Ljk4NywwLDAsMS0uNTExLS4xMnYxNi40MzFINTEuNjgxVjI1MC41QTEuMTc4LDEuMTc4LDAsMCwxLDUxLjE0MSwyNTAuNjJaTTE4LjM2OCwyNjIuMTg1SDEzLjU5MnYtNC43NDZoNC43NDZ2NC43NDZabTkuNDkyLDBIMjMuMTE1di00Ljc0Nmg0Ljc0NnY0Ljc0NlptOS41MjIsMEgzMi42Mzd2LTQuNzQ2aDQuNzQ2Wm05LjUyMiwwSDQyLjE1OXYtNC43NDZoNC43NDZaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg3LjgyNSAtMjI2LjQ2OSkiLz48cGF0aCBjbGFzcz0iYSIgZD0iTTM1Ljc3MiwyOTYuNTczVjE3Ny42NDlhNy4xNDcsNy4xNDcsMCwwLDAtNy4xNDktNy4xNDlILTI4LjQ1MWE3LjE0Nyw3LjE0NywwLDAsMC03LjE0OSw3LjE0OVYyOTYuNTczYTcuMTQ3LDcuMTQ3LDAsMCwwLDcuMTQ5LDcuMTQ5SDI4LjYyM0E3LjEyOCw3LjEyOCwwLDAsMCwzNS43NzIsMjk2LjU3M1ptLTY0LjIyMy0xMTYuNTJhMi4zNTksMi4zNTksMCwwLDEsMi4zNzMtMi4zNzNIMjYuMjVhMi4zNTksMi4zNTksMCwwLDEsMi4zNzMsMi4zNzN2MzMuMzEzYTIuMzU5LDIuMzU5LDAsMCwxLTIuMzczLDIuMzczSC0yNi4wNzhhMi4zNTksMi4zNTksMCwwLDEtMi4zNzMtMi4zNzNabTU3LjA3NCw0MC40MzJ2NC43NDZIMjEuNDc0di00Ljc0NlptLTU3LjA3NCwwSC0yMS4zdjQuNzQ2aC03LjE0OVptMi4zNzMsNzYuMDg4YTQuNzU2LDQuNzU2LDAsMCwxLTQuNzQ2LTQuNzQ2LDQuNzU2LDQuNzU2LDAsMCwxLDQuNzQ2LTQuNzQ2LDQuNzgyLDQuNzgyLDAsMCwxLDQuNzc2LDQuNzQ2QTQuNzQzLDQuNzQzLDAsMCwxLTI2LjA3OCwyOTYuNTczWm0xNi42NzIsMGE0Ljc1Niw0Ljc1NiwwLDAsMS00Ljc0Ni00Ljc0Niw0Ljc1Niw0Ljc1NiwwLDAsMSw0Ljc0Ni00Ljc0Niw0Ljc1Niw0Ljc1NiwwLDAsMSw0Ljc0Niw0Ljc0NkE0LjczNyw0LjczNywwLDAsMS05LjQwNiwyOTYuNTczWk0tMTkuODksMjcxLjc2MWMtLjA2LS4wNi0uMTUtLjEyLS4yMS0uMThzLS4xMi0uMTUtLjE4LS4yMWEyOC41MTksMjguNTE5LDAsMCwxLDAtNDAuMzQyLDI4LjUxOSwyOC41MTksMCwwLDEsNDAuMzQyLDBjLjA2LjA2LjE1LjA5LjIxLjE4LjA2LjA2LjEyLjE1LjE4LjIxYTI4LjUxOCwyOC41MTgsMCwwLDEsMCw0MC4zNDJBMjguNTQ2LDI4LjU0NiwwLDAsMS0xOS44OSwyNzEuNzYxWk03LjIzNSwyOTYuNTczYTQuNzQ2LDQuNzQ2LDAsMSwxLDQuNzQ2LTQuNzQ2QTQuNzU2LDQuNzU2LDAsMCwxLDcuMjM1LDI5Ni41NzNabTE2LjY0MSwwYTQuNzQ2LDQuNzQ2LDAsMSwxLDQuNzQ2LTQuNzQ2QTQuNzU2LDQuNzU2LDAsMCwxLDIzLjg3NywyOTYuNTczWiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzUuNiAtMTcwLjUpIi8+PC9nPjwvc3ZnPg=="
+
+/***/ }),
+
+/***/ "./assets/multimeter_white.svg":
+/*!*************************************!*\
+  !*** ./assets/multimeter_white.svg ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTM2IiBoZWlnaHQ9IjEzOCIgdmlld0JveD0iMCAwIDEzNiAxMzgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxnIGNsaXAtcGF0aD0idXJsKCNjbGlwMCkiPgo8cGF0aCBkPSJNMTAxLjcxMSA0MC44NTNWMjguODM3QzEwMS43MTggMjguNTgxNCAxMDEuNjc3IDI4LjMyNjggMTAxLjU5MSAyOC4wODZMOTkuMTkxIDIwLjg3N0M5OS4wMzQ2IDIwLjM5NTMgOTguNzI5MiAxOS45NzU2IDk4LjMxODkgMTkuNjc4N0M5Ny45MDg1IDE5LjM4MTggOTcuNDE0NSAxOS4yMjI5IDk2LjkwOCAxOS4yMjVWMEg5Mi4xMDJWMTkuMjI1QzkxLjU5NjUgMTkuMjI3MiA5MS4xMDQ1IDE5LjM4NzcgOTAuNjk1IDE5LjY4NDFDOTAuMjg1NSAxOS45ODA0IDg5Ljk3OTEgMjAuMzk3NiA4OS44MTkgMjAuODc3TDg3LjQxOSAyOC4wODZDODcuMzM1NCAyOC4zMjc0IDg3LjI5NDggMjguNTgxNiA4Ny4yOTkgMjguODM3VjQwLjg1M0g4Mi40OTNWNDUuNjU5SDg3LjI5OVYxMDUuNzM2Qzg3LjMwMTYgMTA2LjM3MiA4Ny41NTUzIDEwNi45ODEgODguMDA0OSAxMDcuNDNDODguNDU0NCAxMDcuODggODkuMDYzMyAxMDguMTMzIDg5LjY5OSAxMDguMTM2SDkyLjA5OVYxMTcuNzQ4QzkyLjA5NjQgMTE4LjM4NCA5MS44NDI3IDExOC45OTMgOTEuMzkzMiAxMTkuNDQyQzkwLjk0MzYgMTE5Ljg5MiA5MC4zMzQ3IDEyMC4xNDUgODkuNjk5IDEyMC4xNDhINzcuNjhWMTI0Ljk1NEg4OS42OTZDOTAuNjQzMyAxMjQuOTU2IDkxLjU4MTggMTI0Ljc3MSA5Mi40NTc0IDEyNC40MUM5My4zMzMxIDEyNC4wNDggOTQuMTI4NyAxMjMuNTE3IDk0Ljc5ODUgMTIyLjg0OEM5NS40Njg0IDEyMi4xNzggOTUuOTk5MyAxMjEuMzgyIDk2LjM2MDggMTIwLjUwNkM5Ni43MjIzIDExOS42MzEgOTYuOTA3MiAxMTguNjkyIDk2LjkwNSAxMTcuNzQ1VjEwOC4xNEg5OS4zMDVDOTkuOTQwNyAxMDguMTM3IDEwMC41NSAxMDcuODg0IDEwMC45OTkgMTA3LjQzNEMxMDEuNDQ5IDEwNi45ODUgMTAxLjcwMiAxMDYuMzc2IDEwMS43MDUgMTA1Ljc0VjQ1LjY1OUgxMDYuNTExVjQwLjg1M0gxMDEuNzExWk05Ni45MDUgMTAzLjMzNEg5Mi4wOTlWNDUuNjU5SDk2LjkwNVYxMDMuMzM0Wk05Ni45MDUgNDAuODUzSDkyLjA5OVYyOS4yMjhMOTMuODQxIDI0LjAyOEg5NS4xOTNMOTYuOTM1IDI5LjIyOFY0MC44NTNIOTYuOTA1WiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTk5LjU0OCAxMDcuMjM2SDk3LjgzNkM5Ny41NTE2IDEwNy4yMzcgOTcuMjY5OCAxMDcuMTgyIDk3LjAwNjggMTA3LjA3NEM5Ni43NDM5IDEwNi45NjYgOTYuNTA1IDEwNi44MDYgOTYuMzAzOSAxMDYuNjA1Qzk2LjEwMjggMTA2LjQwNCA5NS45NDM1IDEwNi4xNjUgOTUuODM1MiAxMDUuOTAyQzk1LjcyNjkgMTA1LjYzOSA5NS42NzE4IDEwNS4zNTcgOTUuNjczIDEwNS4wNzNWMzAuMDk5Qzk1LjY3MTggMjkuODE0NiA5NS43MjY5IDI5LjUzMjggOTUuODM1MiAyOS4yNjk5Qzk1Ljk0MzUgMjkuMDA2OSA5Ni4xMDI4IDI4Ljc2OCA5Ni4zMDM5IDI4LjU2NjlDOTYuNTA1IDI4LjM2NTggOTYuNzQzOSAyOC4yMDY1IDk3LjAwNjggMjguMDk4MkM5Ny4yNjk4IDI3Ljk4OTkgOTcuNTUxNiAyNy45MzQ4IDk3LjgzNiAyNy45MzZIOTkuNTQ4Qzk5LjgzMjQgMjcuOTM0OCAxMDAuMTE0IDI3Ljk4OTkgMTAwLjM3NyAyOC4wOTgyQzEwMC42NCAyOC4yMDY1IDEwMC44NzkgMjguMzY1OCAxMDEuMDggMjguNTY2OUMxMDEuMjgxIDI4Ljc2OCAxMDEuNDQgMjkuMDA2OSAxMDEuNTQ5IDI5LjI2OTlDMTAxLjY1NyAyOS41MzI4IDEwMS43MTIgMjkuODE0NiAxMDEuNzExIDMwLjA5OVYxMDUuMTA2QzEwMS43MDYgMTA1LjY3NSAxMDEuNDc2IDEwNi4yMTkgMTAxLjA3MSAxMDYuNjE5QzEwMC42NjUgMTA3LjAxOCAxMDAuMTE3IDEwNy4yNCA5OS41NDggMTA3LjIzNloiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik0xMjYuMTYzIDEwNy4zODlIMTIwLjUxNkMxMTkuOTc0IDEwNy4zODggMTE5LjQ1NSAxMDcuMTczIDExOS4wNzIgMTA2Ljc5QzExOC42ODkgMTA2LjQwNyAxMTguNDc0IDEwNS44ODggMTE4LjQ3MyAxMDUuMzQ2VjI0LjEyMkMxMTguNDc0IDIzLjU4MDMgMTE4LjY4OSAyMy4wNjEgMTE5LjA3MiAyMi42NzhDMTE5LjQ1NSAyMi4yOTQ5IDExOS45NzQgMjIuMDc5NSAxMjAuNTE2IDIyLjA3OUgxMjYuMTYzQzEyNi43MDUgMjIuMDc5NSAxMjcuMjI0IDIyLjI5NDkgMTI3LjYwNyAyMi42NzhDMTI3Ljk5IDIzLjA2MSAxMjguMjA1IDIzLjU4MDMgMTI4LjIwNiAyNC4xMjJWMTA1LjM0N0MxMjguMiAxMDUuODg3IDEyNy45ODMgMTA2LjQwMyAxMjcuNjAxIDEwNi43ODVDMTI3LjIxOSAxMDcuMTY3IDEyNi43MDMgMTA3LjM4NCAxMjYuMTYzIDEwNy4zODlWMTA3LjM4OVoiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik04OC4xOTQgMTIwLjE4NUg2NS41MTVWMTI0Ljk2MUg4OC4xOTRWMTIwLjE4NVoiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik04OS42NjUgMTI5Ljc5N0g2Ni45ODZWMTM0LjU3M0g4OS42NjVWMTI5Ljc5N1oiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik01Mi41MzggNjkuMTk2N0w1Mi40NDggNjkuMTA4QzUyIDY4LjY5MyA1MS40MDY4IDY4LjQ2NDQgNTAuNzkyIDY4LjQ2OTlDNTAuMTc3MiA2OC40NzU1IDQ5LjU4ODIgNjguNzE0NiA0OS4xNDggNjkuMTM3NkwxOC44NjQgOTguOTc4NEMxOC40MjggOTkuNDA4NyAxOC4xODA3IDk5Ljk5MDMgMTguMTc1MSAxMDAuNTk4QzE4LjE2OTUgMTAxLjIwNiAxOC40MDYxIDEwMS43OTIgMTguODM0IDEwMi4yM0wxOC45NTQgMTAyLjM0OUMxOS40MDUyIDEwMi43NTcgMTkuOTk3MiAxMDIuOTgxIDIwLjYwOTkgMTAyLjk3NkMyMS4yMjI3IDEwMi45NyAyMS44MTA0IDEwMi43MzYgMjIuMjU0IDEwMi4zMTlMNTIuNTAzIDcyLjQ1MjRDNTIuOTQwOCA3Mi4wMjI2IDUzLjE4OTggNzEuNDQwNiA1My4xOTY0IDcwLjgzMTZDNTMuMjAyOSA3MC4yMjI3IDUyLjk2NjUgNjkuNjM1NSA1Mi41MzggNjkuMTk2N1Y2OS4xOTY3WiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTQ2Ljc5NSA2NC45OTM5QzQyLjMwMDkgNjIuNjUxMiAzNy4xNjMgNjEuNzg5NiAzMi4xMzU0IDYyLjUzNTVDMjcuMTA3OSA2My4yODE0IDIyLjQ1NTMgNjUuNTk1NSAxOC44NjA0IDY5LjEzODRDMTUuMjY1NSA3Mi42ODEyIDEyLjkxNzYgNzcuMjY2MiAxMi4xNjEzIDgyLjIyMDRDMTEuNDA1IDg3LjE3NDcgMTIuMjggOTIuMjM3NCAxNC42NTggOTYuNjY1N0MxNC45MDM0IDk2LjMwMzQgMTUuMTg1MSA5NS45NjYzIDE1LjQ5OSA5NS42NTk2TDQ1Ljc3OSA2NS44MTc3QzQ2LjEwOSA2NS41MjIxIDQ2LjQzOSA2NS4yNiA0Ni43OTUgNjQuOTkzOVoiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik0xMi40MzYgMjcuMzQxOEg1OC45NjZDNTkuMTQ0IDI3LjMzNSA1OS4zMjA2IDI3LjM3NTkgNTkuNDc3IDI3LjQ2VjE3Ljc1MDlIMTEuODk1VjI3LjQ2QzEyLjA2MzIgMjcuMzc4OCAxMi4yNDg3IDI3LjMzODMgMTIuNDM2IDI3LjM0MThWMjcuMzQxOFoiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik01Ni43MTMgNzQuNzYxMkM1Ni40Njc2IDc1LjEyMzUgNTYuMTg1OCA3NS40NjA2IDU1Ljg3MiA3NS43Njc0TDI1LjU5MyAxMDUuNjA0QzI1LjI4MDMgMTA1LjkxMiAyNC45Mzg0IDEwNi4xOSAyNC41NzIgMTA2LjQzM0MyOS4wNjYyIDEwOC43NzggMzQuMjA1IDEwOS42NDEgMzkuMjMzOSAxMDguODk3QzQ0LjI2MjggMTA4LjE1MiA0OC45MTY5IDEwNS44MzggNTIuNTEyOCAxMDIuMjk0QzU2LjEwODggOTguNzUwNyA1OC40NTcxIDk0LjE2NDYgNTkuMjEzMSA4OS4yMDkxQzU5Ljk2OSA4NC4yNTM2IDU5LjA5MjggNzkuMTg5OCA1Ni43MTMgNzQuNzYxMlY3NC43NjEyWiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTU4Ljk2NiAyOS43OTg0SDEyLjQzNkMxMi4yNTggMjkuODA1MiAxMi4wODE0IDI5Ljc2NDMgMTEuOTI1IDI5LjY4MDJWNDUuODcxM0g1OS41MDZWMjkuNjgwMkM1OS4zMzgxIDI5Ljc2MTMgNTkuMTUzIDI5LjgwMTggNTguOTY2IDI5Ljc5ODRWMjkuNzk4NFpNMjYuMTkzIDQxLjE5NDZIMjEuNDE3VjM2LjUxNzhIMjYuMTYzVjQxLjE5NDZIMjYuMTkzWk0zNS42ODUgNDEuMTk0NkgzMC45NFYzNi41MTc4SDM1LjY4NlY0MS4xOTQ2SDM1LjY4NVpNNDUuMjA3IDQxLjE5NDZINDAuNDYyVjM2LjUxNzhINDUuMjA4TDQ1LjIwNyA0MS4xOTQ2Wk01NC43MjkgNDEuMTk0Nkg0OS45ODRWMzYuNTE3OEg1NC43M0w1NC43MjkgNDEuMTk0NloiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik03MS4zNzIgMTMwLjIzMlYxMy4wNDQ2QzcxLjM3MjMgMTIuMTE5NCA3MS4xODc1IDExLjIwMzMgNzAuODI4NCAxMC4zNDg1QzcwLjQ2OTIgOS40OTM2NSA2OS45NDI2IDguNzE2OTUgNjkuMjc4NyA4LjA2Mjc1QzY4LjYxNDggNy40MDg1NCA2Ny44MjY2IDYuODg5NjUgNjYuOTU5MSA2LjUzNTcyQzY2LjA5MTYgNi4xODE3OCA2NS4xNjE5IDUuOTk5NzQgNjQuMjIzIDZINy4xNDlDNi4yMTAxIDUuOTk5NzQgNS4yODAzNiA2LjE4MTc4IDQuNDEyODggNi41MzU3MkMzLjU0NTQxIDYuODg5NjUgMi43NTcyMSA3LjQwODU0IDIuMDkzMzEgOC4wNjI3NUMxLjQyOTQxIDguNzE2OTUgMC45MDI4MjYgOS40OTM2NSAwLjU0MzY0OCAxMC4zNDg1QzAuMTg0NDcgMTEuMjAzMyAtMC4wMDAyNjI0OTUgMTIuMTE5NCAyLjc5OTQ1ZS0wNyAxMy4wNDQ2VjEzMC4yMzJDLTAuMDAwMjYyNDk1IDEzMS4xNTggMC4xODQ0NyAxMzIuMDc0IDAuNTQzNjQ4IDEzMi45MjlDMC45MDI4MjYgMTMzLjc4MyAxLjQyOTQxIDEzNC41NiAyLjA5MzMxIDEzNS4yMTRDMi43NTcyMSAxMzUuODY4IDMuNTQ1NDEgMTM2LjM4NyA0LjQxMjg4IDEzNi43NDFDNS4yODAzNiAxMzcuMDk1IDYuMjEwMSAxMzcuMjc3IDcuMTQ5IDEzNy4yNzdINjQuMjIzQzY1LjE2MjYgMTM3LjI4IDY2LjA5MzUgMTM3LjA5OSA2Ni45NjIxIDEzNi43NDZDNjcuODMwNyAxMzYuMzkzIDY4LjYxOTkgMTM1Ljg3NCA2OS4yODQzIDEzNS4yMkM2OS45NDg3IDEzNC41NjUgNzAuNDc1MiAxMzMuNzg3IDcwLjgzMzUgMTMyLjkzMUM3MS4xOTE3IDEzMi4wNzYgNzEuMzc0OCAxMzEuMTU4IDcxLjM3MiAxMzAuMjMyVjEzMC4yMzJaTTcuMTQ5IDE1LjQxMzVDNy4xNDcxNCAxNS4xMDU5IDcuMjA3MjUgMTQuODAxIDcuMzI1ODUgMTQuNTE2NUM3LjQ0NDQ0IDE0LjIzMiA3LjYxOTE3IDEzLjk3MzUgNy44Mzk4OSAxMy43NTZDOC4wNjA2MiAxMy41Mzg1IDguMzIyOTUgMTMuMzY2MyA4LjYxMTcgMTMuMjQ5NEM4LjkwMDQ0IDEzLjEzMjYgOS4yMDk4NSAxMy4wNzMzIDkuNTIyIDEzLjA3NTJINjEuODVDNjIuMTYyMSAxMy4wNzMzIDYyLjQ3MTYgMTMuMTMyNiA2Mi43NjAzIDEzLjI0OTRDNjMuMDQ5IDEzLjM2NjMgNjMuMzExNCAxMy41Mzg1IDYzLjUzMjEgMTMuNzU2QzYzLjc1MjggMTMuOTczNSA2My45Mjc2IDE0LjIzMiA2NC4wNDYyIDE0LjUxNjVDNjQuMTY0NyAxNC44MDEgNjQuMjI0OSAxNS4xMDU5IDY0LjIyMyAxNS40MTM1VjQ4LjI0MDJDNjQuMjI0OSA0OC41NDc4IDY0LjE2NDcgNDguODUyNyA2NC4wNDYyIDQ5LjEzNzJDNjMuOTI3NiA0OS40MjE3IDYzLjc1MjggNDkuNjgwMiA2My41MzIxIDQ5Ljg5NzdDNjMuMzExNCA1MC4xMTUyIDYzLjA0OSA1MC4yODc0IDYyLjc2MDMgNTAuNDA0M0M2Mi40NzE2IDUwLjUyMTEgNjIuMTYyMSA1MC41ODA0IDYxLjg1IDUwLjU3ODVIOS41MjJDOS4yMDk4NSA1MC41ODA0IDguOTAwNDQgNTAuNTIxMSA4LjYxMTcgNTAuNDA0M0M4LjMyMjk1IDUwLjI4NzQgOC4wNjA2MiA1MC4xMTUyIDcuODM5ODkgNDkuODk3N0M3LjYxOTE3IDQ5LjY4MDIgNy40NDQ0NCA0OS40MjE3IDcuMzI1ODUgNDkuMTM3MkM3LjIwNzI1IDQ4Ljg1MjcgNy4xNDcxNCA0OC41NDc4IDcuMTQ5IDQ4LjI0MDJWMTUuNDEzNVpNNjQuMjIzIDU1LjI1NTJWNTkuOTMxOUg1Ny4wNzRWNTUuMjU1Mkg2NC4yMjNaTTcuMTQ5IDU1LjI1NTJIMTQuM1Y1OS45MzE5SDcuMTUxTDcuMTQ5IDU1LjI1NTJaTTkuNTIyIDEzMC4yMzJDOC4yNjQwOSAxMzAuMjMgNy4wNTg0NiAxMjkuNzM2IDYuMTY4OTkgMTI4Ljg2QzUuMjc5NTEgMTI3Ljk4MyA0Ljc3ODY0IDEyNi43OTUgNC43NzYgMTI1LjU1NkM0Ljc3ODY0IDEyNC4zMTYgNS4yNzk1MSAxMjMuMTI4IDYuMTY4OTkgMTIyLjI1MkM3LjA1ODQ2IDEyMS4zNzUgOC4yNjQwOSAxMjAuODgyIDkuNTIyIDEyMC44NzlDMTAuNzgzIDEyMC44OCAxMS45OTI0IDEyMS4zNzMgMTIuODg2OCAxMjIuMjQ5QzEzLjc4MTMgMTIzLjEyNSAxNC4yODg1IDEyNC4zMTMgMTQuMjk4IDEyNS41NTZDMTQuMjk4NCAxMjYuMTcyIDE0LjE3NDkgMTI2Ljc4MyAxMy45MzQ3IDEyNy4zNTNDMTMuNjk0NSAxMjcuOTIyIDEzLjM0MjIgMTI4LjQzOSAxMi44OTgyIDEyOC44NzRDMTIuNDU0MyAxMjkuMzA5IDExLjkyNzQgMTI5LjY1MyAxMS4zNDc5IDEyOS44ODZDMTAuNzY4NCAxMzAuMTE5IDEwLjE0NzkgMTMwLjIzNyA5LjUyMiAxMzAuMjMyVjEzMC4yMzJaTTI2LjE5NCAxMzAuMjMyQzI0LjkzNjEgMTMwLjIzIDIzLjczMDUgMTI5LjczNiAyMi44NDEgMTI4Ljg2QzIxLjk1MTUgMTI3Ljk4MyAyMS40NTA2IDEyNi43OTUgMjEuNDQ4IDEyNS41NTZDMjEuNDUwNiAxMjQuMzE2IDIxLjk1MTUgMTIzLjEyOCAyMi44NDEgMTIyLjI1MkMyMy43MzA1IDEyMS4zNzUgMjQuOTM2MSAxMjAuODgyIDI2LjE5NCAxMjAuODc5QzI3LjQ1MTkgMTIwLjg4MiAyOC42NTc1IDEyMS4zNzUgMjkuNTQ3IDEyMi4yNTJDMzAuNDM2NSAxMjMuMTI4IDMwLjkzNzQgMTI0LjMxNiAzMC45NCAxMjUuNTU2QzMwLjk0MTIgMTI2LjE3IDMwLjgxOTIgMTI2Ljc3OSAzMC41ODExIDEyNy4zNDdDMzAuMzQzMSAxMjcuOTE1IDI5Ljk5MzUgMTI4LjQzMSAyOS41NTI2IDEyOC44NjVDMjkuMTExNiAxMjkuMyAyOC41ODggMTI5LjY0NCAyOC4wMTE2IDEyOS44NzlDMjcuNDM1MyAxMzAuMTEzIDI2LjgxNzYgMTMwLjIzNCAyNi4xOTQgMTMwLjIzMlYxMzAuMjMyWk0xNS43MSAxMDUuNzgzQzE1LjY1IDEwNS43MjMgMTUuNTYgMTA1LjY2NCAxNS41IDEwNS42MDVDMTUuNDQgMTA1LjU0NiAxNS4zOCAxMDUuNDU3IDE1LjMyIDEwNS4zOThDMTIuNjcwMyAxMDIuNzg5IDEwLjU2ODMgOTkuNjg5OSA5LjEzNDE5IDk2LjI3OTRDNy43MDAwOSA5Mi44NjkgNi45NjE5NSA4OS4yMTM1IDYuOTYxOTUgODUuNTIxOEM2Ljk2MTk1IDgxLjgzMDEgNy43MDAwOSA3OC4xNzQ2IDkuMTM0MTkgNzQuNzY0MkMxMC41NjgzIDcxLjM1MzcgMTIuNjcwMyA2OC4yNTUxIDE1LjMyIDY1LjY0NTNDMTcuOTY4NCA2My4wMzQyIDIxLjExMyA2MC45NjMgMjQuNTc0IDU5LjU0OThDMjguMDM1IDU4LjEzNjYgMzEuNzQ0NiA1Ny40MDkzIDM1LjQ5MSA1Ny40MDkzQzM5LjIzNzQgNTcuNDA5MyA0Mi45NDcgNTguMTM2NiA0Ni40MDggNTkuNTQ5OEM0OS44NjkgNjAuOTYzIDUzLjAxMzYgNjMuMDM0MiA1NS42NjIgNjUuNjQ1M0M1NS43MjIgNjUuNzA0NCA1NS44MTIgNjUuNzM0IDU1Ljg3MiA2NS44MjI3QzU1LjkzMiA2NS44ODE4IDU1Ljk5MiA2NS45NzA1IDU2LjA1MiA2Ni4wMjk2QzU4LjcwMTkgNjguNjM5MyA2MC44MDM5IDcxLjczNzkgNjIuMjM4MSA3NS4xNDg0QzYzLjY3MjMgNzguNTU4OSA2NC40MTA1IDgyLjIxNDQgNjQuNDEwNSA4NS45MDYxQzY0LjQxMDUgODkuNTk3OCA2My42NzIzIDkzLjI1MzMgNjIuMjM4MSA5Ni42NjM4QzYwLjgwMzkgMTAwLjA3NCA1OC43MDE5IDEwMy4xNzMgNTYuMDUyIDEwNS43ODNDNTAuNjk5NyAxMTEuMDQ5IDQzLjQ0NSAxMTQuMDA4IDM1Ljg4MSAxMTQuMDA4QzI4LjMxNyAxMTQuMDA4IDIxLjA2MjMgMTExLjA0OSAxNS43MSAxMDUuNzgzVjEwNS43ODNaTTQyLjgzNSAxMzAuMjMyQzQxLjg5NjMgMTMwLjIzMiA0MC45Nzg3IDEyOS45NTggNDAuMTk4MyAxMjkuNDQ0QzM5LjQxNzggMTI4LjkzIDM4LjgwOTUgMTI4LjIgMzguNDUwMyAxMjcuMzQ1QzM4LjA5MTEgMTI2LjQ5MSAzNy45OTcxIDEyNS41NSAzOC4xODAyIDEyNC42NDNDMzguMzYzMyAxMjMuNzM2IDM4LjgxNTMgMTIyLjkwMyAzOS40NzkxIDEyMi4yNDlDNDAuMTQyOCAxMjEuNTk1IDQwLjk4ODUgMTIxLjE0OSA0MS45MDkxIDEyMC45NjlDNDIuODI5NyAxMjAuNzg4IDQzLjc4NCAxMjAuODgxIDQ0LjY1MTIgMTIxLjIzNUM0NS41MTg0IDEyMS41ODkgNDYuMjU5NyAxMjIuMTg4IDQ2Ljc4MTIgMTIyLjk1N0M0Ny4zMDI3IDEyMy43MjcgNDcuNTgxIDEyNC42MzEgNDcuNTgxIDEyNS41NTZDNDcuNTc4NCAxMjYuNzk1IDQ3LjA3NzUgMTI3Ljk4MyA0Ni4xODggMTI4Ljg2QzQ1LjI5ODUgMTI5LjczNiA0NC4wOTI5IDEzMC4yMyA0Mi44MzUgMTMwLjIzMlpNNTkuNDc2IDEzMC4yMzJDNTguNTM3MyAxMzAuMjMyIDU3LjYxOTcgMTI5Ljk1OCA1Ni44MzkzIDEyOS40NDRDNTYuMDU4OCAxMjguOTMgNTUuNDUwNSAxMjguMiA1NS4wOTEzIDEyNy4zNDVDNTQuNzMyMSAxMjYuNDkxIDU0LjYzODEgMTI1LjU1IDU0LjgyMTIgMTI0LjY0M0M1NS4wMDQzIDEyMy43MzYgNTUuNDU2MyAxMjIuOTAzIDU2LjEyMDEgMTIyLjI0OUM1Ni43ODM4IDEyMS41OTUgNTcuNjI5NSAxMjEuMTQ5IDU4LjU1MDEgMTIwLjk2OUM1OS40NzA3IDEyMC43ODggNjAuNDI1IDEyMC44ODEgNjEuMjkyMiAxMjEuMjM1QzYyLjE1OTQgMTIxLjU4OSA2Mi45MDA3IDEyMi4xODggNjMuNDIyMiAxMjIuOTU3QzYzLjk0MzcgMTIzLjcyNyA2NC4yMjIgMTI0LjYzMSA2NC4yMjIgMTI1LjU1NkM2NC4yMTk0IDEyNi43OTUgNjMuNzE4NiAxMjcuOTgzIDYyLjgyOTQgMTI4Ljg1OUM2MS45NDAxIDEyOS43MzYgNjAuNzM0NyAxMzAuMjMgNTkuNDc3IDEzMC4yMzJINTkuNDc2WiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTEzMS44NjggNDAuODUzVjI4LjgzN0MxMzEuODc1IDI4LjU4MTQgMTMxLjgzNCAyOC4zMjY4IDEzMS43NDggMjguMDg2TDEyOS4zNDggMjAuODc3QzEyOS4xOTIgMjAuMzk1MiAxMjguODg2IDE5Ljk3NTUgMTI4LjQ3NiAxOS42Nzg1QzEyOC4wNjYgMTkuMzgxNiAxMjcuNTcyIDE5LjIyMjggMTI3LjA2NSAxOS4yMjVWMEgxMjIuMjU5VjE5LjIyNUMxMjEuNzU0IDE5LjIyNzIgMTIxLjI2MSAxOS4zODc3IDEyMC44NTIgMTkuNjg0MUMxMjAuNDQyIDE5Ljk4MDQgMTIwLjEzNiAyMC4zOTc2IDExOS45NzYgMjAuODc3TDExNy41NzYgMjguMDg2QzExNy40OTIgMjguMzI3NCAxMTcuNDUyIDI4LjU4MTYgMTE3LjQ1NiAyOC44MzdWNDAuODUzSDExMi42NVY0NS42NTlIMTE3LjQ1NlYxMDUuNzM2QzExNy40NTkgMTA2LjM3MiAxMTcuNzEyIDEwNi45ODEgMTE4LjE2MiAxMDcuNDNDMTE4LjYxMSAxMDcuODggMTE5LjIyIDEwOC4xMzMgMTE5Ljg1NiAxMDguMTM2SDEyMi4yNTZWMTI0Ljk1OEMxMjIuMjUyIDEyNi4yMzIgMTIxLjc0NSAxMjcuNDUyIDEyMC44NDQgMTI4LjM1MkMxMTkuOTQ0IDEyOS4yNTMgMTE4LjcyNCAxMjkuNzYgMTE3LjQ1IDEyOS43NjRINzlWMTM0LjU3SDExNy40NUMxMTguNzEzIDEzNC41NzIgMTE5Ljk2MyAxMzQuMzI0IDEyMS4xMyAxMzMuODQyQzEyMi4yOTcgMTMzLjM1OSAxMjMuMzU3IDEzMi42NTEgMTI0LjI1IDEzMS43NThDMTI1LjE0MyAxMzAuODY1IDEyNS44NTEgMTI5LjgwNSAxMjYuMzM0IDEyOC42MzhDMTI2LjgxNiAxMjcuNDcxIDEyNy4wNjQgMTI2LjIyMSAxMjcuMDYyIDEyNC45NThWMTA4LjE0SDEyOS40NjJDMTMwLjA5OCAxMDguMTM3IDEzMC43MDcgMTA3Ljg4NCAxMzEuMTU2IDEwNy40MzRDMTMxLjYwNiAxMDYuOTg1IDEzMS44NTkgMTA2LjM3NiAxMzEuODYyIDEwNS43NFY0NS42NTlIMTM2LjY2OFY0MC44NTNIMTMxLjg2OFpNMTI3LjA2MiAxMDMuMzM0SDEyMi4yNTZWNDUuNjU5SDEyNy4wNjJWMTAzLjMzNFpNMTI3LjA2MiA0MC44NTNIMTIyLjI1NlYyOS4yMjhMMTIzLjk5OCAyNC4wMjhIMTI1LjM1TDEyNy4wOTIgMjkuMjI4VjQwLjg1M0gxMjcuMDYyWiIgZmlsbD0id2hpdGUiLz4KPC9nPgo8ZGVmcz4KPGNsaXBQYXRoIGlkPSJjbGlwMCI+CjxyZWN0IHdpZHRoPSIxMzUuMzU1IiBoZWlnaHQ9IjEzNy4yNzciIGZpbGw9IndoaXRlIi8+CjwvY2xpcFBhdGg+CjwvZGVmcz4KPC9zdmc+Cg=="
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/array/is-array.js":
 /*!***********************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/core-js/array/is-array.js ***!
@@ -5067,10 +5089,10 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=F%3A%5Cprakash%5Cglobal%5Cpages%5Cindex.js!./":
-/*!*******************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=F%3A%5Cprakash%5Cglobal%5Cpages%5Cindex.js ***!
-  \*******************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=J%3A%5CglobalServices%5Cglobalsolution%5Cpages%5Cindex.js!./":
+/*!**********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=J%3A%5CglobalServices%5Cglobalsolution%5Cpages%5Cindex.js ***!
+  \**********************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -6845,6 +6867,201 @@ exports.SUPPORTS_PERFORMANCE_USER_TIMING = exports.SUPPORTS_PERFORMANCE && typeo
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/next/dist/client/link.js")
+
+
+/***/ }),
+
+/***/ "./node_modules/process/browser.js":
+/*!*****************************************!*\
+  !*** ./node_modules/process/browser.js ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// shim for using process in browser
+var process = module.exports = {};
+
+// cached from whatever global is present so that test runners that stub it
+// don't break things.  But we need to wrap it in a try catch in case it is
+// wrapped in strict mode code which doesn't define any globals.  It's inside a
+// function because try/catches deoptimize in certain engines.
+
+var cachedSetTimeout;
+var cachedClearTimeout;
+
+function defaultSetTimout() {
+    throw new Error('setTimeout has not been defined');
+}
+function defaultClearTimeout () {
+    throw new Error('clearTimeout has not been defined');
+}
+(function () {
+    try {
+        if (typeof setTimeout === 'function') {
+            cachedSetTimeout = setTimeout;
+        } else {
+            cachedSetTimeout = defaultSetTimout;
+        }
+    } catch (e) {
+        cachedSetTimeout = defaultSetTimout;
+    }
+    try {
+        if (typeof clearTimeout === 'function') {
+            cachedClearTimeout = clearTimeout;
+        } else {
+            cachedClearTimeout = defaultClearTimeout;
+        }
+    } catch (e) {
+        cachedClearTimeout = defaultClearTimeout;
+    }
+} ())
+function runTimeout(fun) {
+    if (cachedSetTimeout === setTimeout) {
+        //normal enviroments in sane situations
+        return setTimeout(fun, 0);
+    }
+    // if setTimeout wasn't available but was latter defined
+    if ((cachedSetTimeout === defaultSetTimout || !cachedSetTimeout) && setTimeout) {
+        cachedSetTimeout = setTimeout;
+        return setTimeout(fun, 0);
+    }
+    try {
+        // when when somebody has screwed with setTimeout but no I.E. maddness
+        return cachedSetTimeout(fun, 0);
+    } catch(e){
+        try {
+            // When we are in I.E. but the script has been evaled so I.E. doesn't trust the global object when called normally
+            return cachedSetTimeout.call(null, fun, 0);
+        } catch(e){
+            // same as above but when it's a version of I.E. that must have the global object for 'this', hopfully our context correct otherwise it will throw a global error
+            return cachedSetTimeout.call(this, fun, 0);
+        }
+    }
+
+
+}
+function runClearTimeout(marker) {
+    if (cachedClearTimeout === clearTimeout) {
+        //normal enviroments in sane situations
+        return clearTimeout(marker);
+    }
+    // if clearTimeout wasn't available but was latter defined
+    if ((cachedClearTimeout === defaultClearTimeout || !cachedClearTimeout) && clearTimeout) {
+        cachedClearTimeout = clearTimeout;
+        return clearTimeout(marker);
+    }
+    try {
+        // when when somebody has screwed with setTimeout but no I.E. maddness
+        return cachedClearTimeout(marker);
+    } catch (e){
+        try {
+            // When we are in I.E. but the script has been evaled so I.E. doesn't  trust the global object when called normally
+            return cachedClearTimeout.call(null, marker);
+        } catch (e){
+            // same as above but when it's a version of I.E. that must have the global object for 'this', hopfully our context correct otherwise it will throw a global error.
+            // Some versions of I.E. have different rules for clearTimeout vs setTimeout
+            return cachedClearTimeout.call(this, marker);
+        }
+    }
+
+
+
+}
+var queue = [];
+var draining = false;
+var currentQueue;
+var queueIndex = -1;
+
+function cleanUpNextTick() {
+    if (!draining || !currentQueue) {
+        return;
+    }
+    draining = false;
+    if (currentQueue.length) {
+        queue = currentQueue.concat(queue);
+    } else {
+        queueIndex = -1;
+    }
+    if (queue.length) {
+        drainQueue();
+    }
+}
+
+function drainQueue() {
+    if (draining) {
+        return;
+    }
+    var timeout = runTimeout(cleanUpNextTick);
+    draining = true;
+
+    var len = queue.length;
+    while(len) {
+        currentQueue = queue;
+        queue = [];
+        while (++queueIndex < len) {
+            if (currentQueue) {
+                currentQueue[queueIndex].run();
+            }
+        }
+        queueIndex = -1;
+        len = queue.length;
+    }
+    currentQueue = null;
+    draining = false;
+    runClearTimeout(timeout);
+}
+
+process.nextTick = function (fun) {
+    var args = new Array(arguments.length - 1);
+    if (arguments.length > 1) {
+        for (var i = 1; i < arguments.length; i++) {
+            args[i - 1] = arguments[i];
+        }
+    }
+    queue.push(new Item(fun, args));
+    if (queue.length === 1 && !draining) {
+        runTimeout(drainQueue);
+    }
+};
+
+// v8 likes predictible objects
+function Item(fun, array) {
+    this.fun = fun;
+    this.array = array;
+}
+Item.prototype.run = function () {
+    this.fun.apply(null, this.array);
+};
+process.title = 'browser';
+process.browser = true;
+process.env = {};
+process.argv = [];
+process.version = ''; // empty string to avoid regexp issues
+process.versions = {};
+
+function noop() {}
+
+process.on = noop;
+process.addListener = noop;
+process.once = noop;
+process.off = noop;
+process.removeListener = noop;
+process.removeAllListeners = noop;
+process.emit = noop;
+process.prependListener = noop;
+process.prependOnceListener = noop;
+
+process.listeners = function (name) { return [] }
+
+process.binding = function (name) {
+    throw new Error('process.binding is not supported');
+};
+
+process.cwd = function () { return '/' };
+process.chdir = function (dir) {
+    throw new Error('process.chdir is not supported');
+};
+process.umask = function() { return 0; };
 
 
 /***/ }),
@@ -10857,6 +11074,699 @@ try {
 
 /***/ }),
 
+/***/ "./node_modules/string-hash/index.js":
+/*!*******************************************!*\
+  !*** ./node_modules/string-hash/index.js ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+function hash(str) {
+  var hash = 5381,
+      i    = str.length;
+
+  while(i) {
+    hash = (hash * 33) ^ str.charCodeAt(--i);
+  }
+
+  /* JavaScript does bitwise operations (like XOR, above) on 32-bit signed
+   * integers. Since we want the results to be always positive, convert the
+   * signed int to an unsigned by doing an unsigned bitshift. */
+  return hash >>> 0;
+}
+
+module.exports = hash;
+
+
+/***/ }),
+
+/***/ "./node_modules/styled-jsx/dist/lib/stylesheet.js":
+/*!********************************************************!*\
+  !*** ./node_modules/styled-jsx/dist/lib/stylesheet.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(process) {
+
+exports.__esModule = true;
+exports["default"] = void 0;
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+/*
+Based on Glamor's sheet
+https://github.com/threepointone/glamor/blob/667b480d31b3721a905021b26e1290ce92ca2879/src/sheet.js
+*/
+var isProd = typeof process !== 'undefined' && process.env && "development" === 'production';
+
+var isString = function isString(o) {
+  return Object.prototype.toString.call(o) === '[object String]';
+};
+
+var StyleSheet =
+/*#__PURE__*/
+function () {
+  function StyleSheet(_temp) {
+    var _ref = _temp === void 0 ? {} : _temp,
+        _ref$name = _ref.name,
+        name = _ref$name === void 0 ? 'stylesheet' : _ref$name,
+        _ref$optimizeForSpeed = _ref.optimizeForSpeed,
+        optimizeForSpeed = _ref$optimizeForSpeed === void 0 ? isProd : _ref$optimizeForSpeed,
+        _ref$isBrowser = _ref.isBrowser,
+        isBrowser = _ref$isBrowser === void 0 ? typeof window !== 'undefined' : _ref$isBrowser;
+
+    invariant(isString(name), '`name` must be a string');
+    this._name = name;
+    this._deletedRulePlaceholder = "#" + name + "-deleted-rule____{}";
+    invariant(typeof optimizeForSpeed === 'boolean', '`optimizeForSpeed` must be a boolean');
+    this._optimizeForSpeed = optimizeForSpeed;
+    this._isBrowser = isBrowser;
+    this._serverSheet = undefined;
+    this._tags = [];
+    this._injected = false;
+    this._rulesCount = 0;
+    var node = this._isBrowser && document.querySelector('meta[property="csp-nonce"]');
+    this._nonce = node ? node.getAttribute('content') : null;
+  }
+
+  var _proto = StyleSheet.prototype;
+
+  _proto.setOptimizeForSpeed = function setOptimizeForSpeed(bool) {
+    invariant(typeof bool === 'boolean', '`setOptimizeForSpeed` accepts a boolean');
+    invariant(this._rulesCount === 0, 'optimizeForSpeed cannot be when rules have already been inserted');
+    this.flush();
+    this._optimizeForSpeed = bool;
+    this.inject();
+  };
+
+  _proto.isOptimizeForSpeed = function isOptimizeForSpeed() {
+    return this._optimizeForSpeed;
+  };
+
+  _proto.inject = function inject() {
+    var _this = this;
+
+    invariant(!this._injected, 'sheet already injected');
+    this._injected = true;
+
+    if (this._isBrowser && this._optimizeForSpeed) {
+      this._tags[0] = this.makeStyleTag(this._name);
+      this._optimizeForSpeed = 'insertRule' in this.getSheet();
+
+      if (!this._optimizeForSpeed) {
+        if (!isProd) {
+          console.warn('StyleSheet: optimizeForSpeed mode not supported falling back to standard mode.');
+        }
+
+        this.flush();
+        this._injected = true;
+      }
+
+      return;
+    }
+
+    this._serverSheet = {
+      cssRules: [],
+      insertRule: function insertRule(rule, index) {
+        if (typeof index === 'number') {
+          _this._serverSheet.cssRules[index] = {
+            cssText: rule
+          };
+        } else {
+          _this._serverSheet.cssRules.push({
+            cssText: rule
+          });
+        }
+
+        return index;
+      },
+      deleteRule: function deleteRule(index) {
+        _this._serverSheet.cssRules[index] = null;
+      }
+    };
+  };
+
+  _proto.getSheetForTag = function getSheetForTag(tag) {
+    if (tag.sheet) {
+      return tag.sheet;
+    } // this weirdness brought to you by firefox
+
+
+    for (var i = 0; i < document.styleSheets.length; i++) {
+      if (document.styleSheets[i].ownerNode === tag) {
+        return document.styleSheets[i];
+      }
+    }
+  };
+
+  _proto.getSheet = function getSheet() {
+    return this.getSheetForTag(this._tags[this._tags.length - 1]);
+  };
+
+  _proto.insertRule = function insertRule(rule, index) {
+    invariant(isString(rule), '`insertRule` accepts only strings');
+
+    if (!this._isBrowser) {
+      if (typeof index !== 'number') {
+        index = this._serverSheet.cssRules.length;
+      }
+
+      this._serverSheet.insertRule(rule, index);
+
+      return this._rulesCount++;
+    }
+
+    if (this._optimizeForSpeed) {
+      var sheet = this.getSheet();
+
+      if (typeof index !== 'number') {
+        index = sheet.cssRules.length;
+      } // this weirdness for perf, and chrome's weird bug
+      // https://stackoverflow.com/questions/20007992/chrome-suddenly-stopped-accepting-insertrule
+
+
+      try {
+        sheet.insertRule(rule, index);
+      } catch (error) {
+        if (!isProd) {
+          console.warn("StyleSheet: illegal rule: \n\n" + rule + "\n\nSee https://stackoverflow.com/q/20007992 for more info");
+        }
+
+        return -1;
+      }
+    } else {
+      var insertionPoint = this._tags[index];
+
+      this._tags.push(this.makeStyleTag(this._name, rule, insertionPoint));
+    }
+
+    return this._rulesCount++;
+  };
+
+  _proto.replaceRule = function replaceRule(index, rule) {
+    if (this._optimizeForSpeed || !this._isBrowser) {
+      var sheet = this._isBrowser ? this.getSheet() : this._serverSheet;
+
+      if (!rule.trim()) {
+        rule = this._deletedRulePlaceholder;
+      }
+
+      if (!sheet.cssRules[index]) {
+        // @TBD Should we throw an error?
+        return index;
+      }
+
+      sheet.deleteRule(index);
+
+      try {
+        sheet.insertRule(rule, index);
+      } catch (error) {
+        if (!isProd) {
+          console.warn("StyleSheet: illegal rule: \n\n" + rule + "\n\nSee https://stackoverflow.com/q/20007992 for more info");
+        } // In order to preserve the indices we insert a deleteRulePlaceholder
+
+
+        sheet.insertRule(this._deletedRulePlaceholder, index);
+      }
+    } else {
+      var tag = this._tags[index];
+      invariant(tag, "old rule at index `" + index + "` not found");
+      tag.textContent = rule;
+    }
+
+    return index;
+  };
+
+  _proto.deleteRule = function deleteRule(index) {
+    if (!this._isBrowser) {
+      this._serverSheet.deleteRule(index);
+
+      return;
+    }
+
+    if (this._optimizeForSpeed) {
+      this.replaceRule(index, '');
+    } else {
+      var tag = this._tags[index];
+      invariant(tag, "rule at index `" + index + "` not found");
+      tag.parentNode.removeChild(tag);
+      this._tags[index] = null;
+    }
+  };
+
+  _proto.flush = function flush() {
+    this._injected = false;
+    this._rulesCount = 0;
+
+    if (this._isBrowser) {
+      this._tags.forEach(function (tag) {
+        return tag && tag.parentNode.removeChild(tag);
+      });
+
+      this._tags = [];
+    } else {
+      // simpler on server
+      this._serverSheet.cssRules = [];
+    }
+  };
+
+  _proto.cssRules = function cssRules() {
+    var _this2 = this;
+
+    if (!this._isBrowser) {
+      return this._serverSheet.cssRules;
+    }
+
+    return this._tags.reduce(function (rules, tag) {
+      if (tag) {
+        rules = rules.concat(Array.prototype.map.call(_this2.getSheetForTag(tag).cssRules, function (rule) {
+          return rule.cssText === _this2._deletedRulePlaceholder ? null : rule;
+        }));
+      } else {
+        rules.push(null);
+      }
+
+      return rules;
+    }, []);
+  };
+
+  _proto.makeStyleTag = function makeStyleTag(name, cssString, relativeToTag) {
+    if (cssString) {
+      invariant(isString(cssString), 'makeStyleTag acceps only strings as second parameter');
+    }
+
+    var tag = document.createElement('style');
+    if (this._nonce) tag.setAttribute('nonce', this._nonce);
+    tag.type = 'text/css';
+    tag.setAttribute("data-" + name, '');
+
+    if (cssString) {
+      tag.appendChild(document.createTextNode(cssString));
+    }
+
+    var head = document.head || document.getElementsByTagName('head')[0];
+
+    if (relativeToTag) {
+      head.insertBefore(tag, relativeToTag);
+    } else {
+      head.appendChild(tag);
+    }
+
+    return tag;
+  };
+
+  _createClass(StyleSheet, [{
+    key: "length",
+    get: function get() {
+      return this._rulesCount;
+    }
+  }]);
+
+  return StyleSheet;
+}();
+
+exports["default"] = StyleSheet;
+
+function invariant(condition, message) {
+  if (!condition) {
+    throw new Error("StyleSheet: " + message + ".");
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../process/browser.js */ "./node_modules/process/browser.js")))
+
+/***/ }),
+
+/***/ "./node_modules/styled-jsx/dist/style.js":
+/*!***********************************************!*\
+  !*** ./node_modules/styled-jsx/dist/style.js ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+exports.__esModule = true;
+exports.flush = flush;
+exports["default"] = void 0;
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _stylesheetRegistry = _interopRequireDefault(__webpack_require__(/*! ./stylesheet-registry */ "./node_modules/styled-jsx/dist/stylesheet-registry.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function _inheritsLoose(subClass, superClass) { subClass.prototype = Object.create(superClass.prototype); subClass.prototype.constructor = subClass; subClass.__proto__ = superClass; }
+
+var styleSheetRegistry = new _stylesheetRegistry["default"]();
+
+var JSXStyle =
+/*#__PURE__*/
+function (_Component) {
+  _inheritsLoose(JSXStyle, _Component);
+
+  function JSXStyle(props) {
+    var _this;
+
+    _this = _Component.call(this, props) || this;
+    _this.prevProps = {};
+    return _this;
+  }
+
+  JSXStyle.dynamic = function dynamic(info) {
+    return info.map(function (tagInfo) {
+      var baseId = tagInfo[0];
+      var props = tagInfo[1];
+      return styleSheetRegistry.computeId(baseId, props);
+    }).join(' ');
+  } // probably faster than PureComponent (shallowEqual)
+  ;
+
+  var _proto = JSXStyle.prototype;
+
+  _proto.shouldComponentUpdate = function shouldComponentUpdate(otherProps) {
+    return this.props.id !== otherProps.id || // We do this check because `dynamic` is an array of strings or undefined.
+    // These are the computed values for dynamic styles.
+    String(this.props.dynamic) !== String(otherProps.dynamic);
+  };
+
+  _proto.componentWillUnmount = function componentWillUnmount() {
+    styleSheetRegistry.remove(this.props);
+  };
+
+  _proto.render = function render() {
+    // This is a workaround to make the side effect async safe in the "render" phase.
+    // See https://github.com/zeit/styled-jsx/pull/484
+    if (this.shouldComponentUpdate(this.prevProps)) {
+      // Updates
+      if (this.prevProps.id) {
+        styleSheetRegistry.remove(this.prevProps);
+      }
+
+      styleSheetRegistry.add(this.props);
+      this.prevProps = this.props;
+    }
+
+    return null;
+  };
+
+  return JSXStyle;
+}(_react.Component);
+
+exports["default"] = JSXStyle;
+
+function flush() {
+  var cssRules = styleSheetRegistry.cssRules();
+  styleSheetRegistry.flush();
+  return cssRules;
+}
+
+/***/ }),
+
+/***/ "./node_modules/styled-jsx/dist/stylesheet-registry.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/styled-jsx/dist/stylesheet-registry.js ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+exports.__esModule = true;
+exports["default"] = void 0;
+
+var _stringHash = _interopRequireDefault(__webpack_require__(/*! string-hash */ "./node_modules/string-hash/index.js"));
+
+var _stylesheet = _interopRequireDefault(__webpack_require__(/*! ./lib/stylesheet */ "./node_modules/styled-jsx/dist/lib/stylesheet.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+var sanitize = function sanitize(rule) {
+  return rule.replace(/\/style/gi, '\\/style');
+};
+
+var StyleSheetRegistry =
+/*#__PURE__*/
+function () {
+  function StyleSheetRegistry(_temp) {
+    var _ref = _temp === void 0 ? {} : _temp,
+        _ref$styleSheet = _ref.styleSheet,
+        styleSheet = _ref$styleSheet === void 0 ? null : _ref$styleSheet,
+        _ref$optimizeForSpeed = _ref.optimizeForSpeed,
+        optimizeForSpeed = _ref$optimizeForSpeed === void 0 ? false : _ref$optimizeForSpeed,
+        _ref$isBrowser = _ref.isBrowser,
+        isBrowser = _ref$isBrowser === void 0 ? typeof window !== 'undefined' : _ref$isBrowser;
+
+    this._sheet = styleSheet || new _stylesheet["default"]({
+      name: 'styled-jsx',
+      optimizeForSpeed: optimizeForSpeed
+    });
+
+    this._sheet.inject();
+
+    if (styleSheet && typeof optimizeForSpeed === 'boolean') {
+      this._sheet.setOptimizeForSpeed(optimizeForSpeed);
+
+      this._optimizeForSpeed = this._sheet.isOptimizeForSpeed();
+    }
+
+    this._isBrowser = isBrowser;
+    this._fromServer = undefined;
+    this._indices = {};
+    this._instancesCounts = {};
+    this.computeId = this.createComputeId();
+    this.computeSelector = this.createComputeSelector();
+  }
+
+  var _proto = StyleSheetRegistry.prototype;
+
+  _proto.add = function add(props) {
+    var _this = this;
+
+    if (undefined === this._optimizeForSpeed) {
+      this._optimizeForSpeed = Array.isArray(props.children);
+
+      this._sheet.setOptimizeForSpeed(this._optimizeForSpeed);
+
+      this._optimizeForSpeed = this._sheet.isOptimizeForSpeed();
+    }
+
+    if (this._isBrowser && !this._fromServer) {
+      this._fromServer = this.selectFromServer();
+      this._instancesCounts = Object.keys(this._fromServer).reduce(function (acc, tagName) {
+        acc[tagName] = 0;
+        return acc;
+      }, {});
+    }
+
+    var _this$getIdAndRules = this.getIdAndRules(props),
+        styleId = _this$getIdAndRules.styleId,
+        rules = _this$getIdAndRules.rules; // Deduping: just increase the instances count.
+
+
+    if (styleId in this._instancesCounts) {
+      this._instancesCounts[styleId] += 1;
+      return;
+    }
+
+    var indices = rules.map(function (rule) {
+      return _this._sheet.insertRule(rule);
+    }) // Filter out invalid rules
+    .filter(function (index) {
+      return index !== -1;
+    });
+    this._indices[styleId] = indices;
+    this._instancesCounts[styleId] = 1;
+  };
+
+  _proto.remove = function remove(props) {
+    var _this2 = this;
+
+    var _this$getIdAndRules2 = this.getIdAndRules(props),
+        styleId = _this$getIdAndRules2.styleId;
+
+    invariant(styleId in this._instancesCounts, "styleId: `" + styleId + "` not found");
+    this._instancesCounts[styleId] -= 1;
+
+    if (this._instancesCounts[styleId] < 1) {
+      var tagFromServer = this._fromServer && this._fromServer[styleId];
+
+      if (tagFromServer) {
+        tagFromServer.parentNode.removeChild(tagFromServer);
+        delete this._fromServer[styleId];
+      } else {
+        this._indices[styleId].forEach(function (index) {
+          return _this2._sheet.deleteRule(index);
+        });
+
+        delete this._indices[styleId];
+      }
+
+      delete this._instancesCounts[styleId];
+    }
+  };
+
+  _proto.update = function update(props, nextProps) {
+    this.add(nextProps);
+    this.remove(props);
+  };
+
+  _proto.flush = function flush() {
+    this._sheet.flush();
+
+    this._sheet.inject();
+
+    this._fromServer = undefined;
+    this._indices = {};
+    this._instancesCounts = {};
+    this.computeId = this.createComputeId();
+    this.computeSelector = this.createComputeSelector();
+  };
+
+  _proto.cssRules = function cssRules() {
+    var _this3 = this;
+
+    var fromServer = this._fromServer ? Object.keys(this._fromServer).map(function (styleId) {
+      return [styleId, _this3._fromServer[styleId]];
+    }) : [];
+
+    var cssRules = this._sheet.cssRules();
+
+    return fromServer.concat(Object.keys(this._indices).map(function (styleId) {
+      return [styleId, _this3._indices[styleId].map(function (index) {
+        return cssRules[index].cssText;
+      }).join(_this3._optimizeForSpeed ? '' : '\n')];
+    }) // filter out empty rules
+    .filter(function (rule) {
+      return Boolean(rule[1]);
+    }));
+  }
+  /**
+   * createComputeId
+   *
+   * Creates a function to compute and memoize a jsx id from a basedId and optionally props.
+   */
+  ;
+
+  _proto.createComputeId = function createComputeId() {
+    var cache = {};
+    return function (baseId, props) {
+      if (!props) {
+        return "jsx-" + baseId;
+      }
+
+      var propsToString = String(props);
+      var key = baseId + propsToString; // return `jsx-${hashString(`${baseId}-${propsToString}`)}`
+
+      if (!cache[key]) {
+        cache[key] = "jsx-" + (0, _stringHash["default"])(baseId + "-" + propsToString);
+      }
+
+      return cache[key];
+    };
+  }
+  /**
+   * createComputeSelector
+   *
+   * Creates a function to compute and memoize dynamic selectors.
+   */
+  ;
+
+  _proto.createComputeSelector = function createComputeSelector(selectoPlaceholderRegexp) {
+    if (selectoPlaceholderRegexp === void 0) {
+      selectoPlaceholderRegexp = /__jsx-style-dynamic-selector/g;
+    }
+
+    var cache = {};
+    return function (id, css) {
+      // Sanitize SSR-ed CSS.
+      // Client side code doesn't need to be sanitized since we use
+      // document.createTextNode (dev) and the CSSOM api sheet.insertRule (prod).
+      if (!this._isBrowser) {
+        css = sanitize(css);
+      }
+
+      var idcss = id + css;
+
+      if (!cache[idcss]) {
+        cache[idcss] = css.replace(selectoPlaceholderRegexp, id);
+      }
+
+      return cache[idcss];
+    };
+  };
+
+  _proto.getIdAndRules = function getIdAndRules(props) {
+    var _this4 = this;
+
+    var css = props.children,
+        dynamic = props.dynamic,
+        id = props.id;
+
+    if (dynamic) {
+      var styleId = this.computeId(id, dynamic);
+      return {
+        styleId: styleId,
+        rules: Array.isArray(css) ? css.map(function (rule) {
+          return _this4.computeSelector(styleId, rule);
+        }) : [this.computeSelector(styleId, css)]
+      };
+    }
+
+    return {
+      styleId: this.computeId(id),
+      rules: Array.isArray(css) ? css : [css]
+    };
+  }
+  /**
+   * selectFromServer
+   *
+   * Collects style tags from the document with id __jsx-XXX
+   */
+  ;
+
+  _proto.selectFromServer = function selectFromServer() {
+    var elements = Array.prototype.slice.call(document.querySelectorAll('[id^="__jsx-"]'));
+    return elements.reduce(function (acc, element) {
+      var id = element.id.slice(2);
+      acc[id] = element;
+      return acc;
+    }, {});
+  };
+
+  return StyleSheetRegistry;
+}();
+
+exports["default"] = StyleSheetRegistry;
+
+function invariant(condition, message) {
+  if (!condition) {
+    throw new Error("StyleSheetRegistry: " + message + ".");
+  }
+}
+
+/***/ }),
+
+/***/ "./node_modules/styled-jsx/style.js":
+/*!******************************************!*\
+  !*** ./node_modules/styled-jsx/style.js ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! ./dist/style */ "./node_modules/styled-jsx/dist/style.js")
+
+
+/***/ }),
+
 /***/ "./pages/components/Header.js":
 /*!************************************!*\
   !*** ./pages/components/Header.js ***!
@@ -10890,7 +11800,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "F:\\prakash\\global\\pages\\components\\Header.js";
+var _jsxFileName = "J:\\globalServices\\globalsolution\\pages\\components\\Header.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement;
 
@@ -10901,28 +11811,36 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
 
 
 var Header = function Header(props) {
-  return __jsx("nav", {
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_7___default.a.Fragment, null, __jsx("link", {
+    href: "https://fonts.googleapis.com/css?family=Prompt:300,400,500,600,700&display=swap",
+    rel: "stylesheet",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }), __jsx("nav", {
     className: "w-100 shadow py-3 px-3",
     style: _objectSpread({
       height: 60
     }, props.style),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 8
     },
     __self: this
   }, __jsx("ul", {
     className: "flex-row flex justify-around",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 9
     },
     __self: this
   }, __jsx("li", {
     className: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 10
     },
     __self: this
   }, __jsx("a", {
@@ -10930,14 +11848,14 @@ var Header = function Header(props) {
     className: "header-nav",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 11
     },
     __self: this
   }, "HOME")), __jsx("li", {
     className: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 13
     },
     __self: this
   }, __jsx("a", {
@@ -10945,14 +11863,14 @@ var Header = function Header(props) {
     className: "header-nav",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 14
     },
     __self: this
   }, "About")), __jsx("li", {
     className: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 16
     },
     __self: this
   }, __jsx("a", {
@@ -10960,14 +11878,14 @@ var Header = function Header(props) {
     className: "header-nav",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 17
     },
     __self: this
   }, "Services")), __jsx("li", {
     className: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 19
     },
     __self: this
   }, __jsx("a", {
@@ -10975,14 +11893,14 @@ var Header = function Header(props) {
     className: "header-nav",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 20
     },
     __self: this
   }, "Work")), __jsx("li", {
     className: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 22
     },
     __self: this
   }, __jsx("a", {
@@ -10990,14 +11908,14 @@ var Header = function Header(props) {
     className: "header-nav",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 23
     },
     __self: this
   }, "Why US")), __jsx("li", {
     className: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 25
     },
     __self: this
   }, __jsx("a", {
@@ -11005,14 +11923,14 @@ var Header = function Header(props) {
     className: "header-nav",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 26
     },
     __self: this
   }, "Gallery")), __jsx("li", {
     className: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 28
     },
     __self: this
   }, __jsx("a", {
@@ -11020,10 +11938,10 @@ var Header = function Header(props) {
     className: "header-nav",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 29
     },
     __self: this
-  }, "Contact"))));
+  }, "Contact")))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
@@ -11041,7 +11959,7 @@ var Header = function Header(props) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "F:\\prakash\\global\\pages\\components\\containerFullHeight.js";
+var _jsxFileName = "J:\\globalServices\\globalsolution\\pages\\components\\containerFullHeight.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 /* harmony default export */ __webpack_exports__["default"] = (function (props) {
@@ -11055,6 +11973,94 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: this
   }, props.children);
 });
+
+/***/ }),
+
+/***/ "./pages/components/hoverCards.js":
+/*!****************************************!*\
+  !*** ./pages/components/hoverCards.js ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _images__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./images */ "./pages/components/images.js");
+var _jsxFileName = "J:\\globalServices\\globalsolution\\pages\\components\\hoverCards.js";
+
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+
+/* harmony default export */ __webpack_exports__["default"] = (function (props) {
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx("div", {
+    className: "jsx-531685783" + " " + "flex p-4 justify-center hover-card",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, __jsx("img", {
+    src: _images__WEBPACK_IMPORTED_MODULE_2__["default"].multimeter_blue,
+    className: "jsx-531685783" + " " + "img-hover-hide",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }), __jsx("img", {
+    src: _images__WEBPACK_IMPORTED_MODULE_2__["default"].multimeter_white,
+    className: "jsx-531685783" + " " + 'img-hover-show',
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  })), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    id: "531685783",
+    __self: this
+  }, ".hover-card.jsx-531685783:hover{border:1px solid;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIko6XFxnbG9iYWxTZXJ2aWNlc1xcZ2xvYmFsc29sdXRpb25cXHBhZ2VzXFxjb21wb25lbnRzXFxob3ZlckNhcmRzLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQWdCYSxBQUlzQyxpQkFDckIiLCJmaWxlIjoiSjpcXGdsb2JhbFNlcnZpY2VzXFxnbG9iYWxzb2x1dGlvblxccGFnZXNcXGNvbXBvbmVudHNcXGhvdmVyQ2FyZHMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgSW1hZ2VzIGZyb20gJy4vaW1hZ2VzJztcclxuXHJcbmV4cG9ydCBkZWZhdWx0IHByb3BzID0+IHtcclxuICAgIHJldHVybiAoXHJcbiAgICAgICAgPD5cclxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImZsZXggcC00IGp1c3RpZnktY2VudGVyIGhvdmVyLWNhcmRcIj5cclxuICAgICAgICAgICAgPGltZ1xyXG4gICAgICAgICAgICAgICAgY2xhc3NOYW1lPVwiaW1nLWhvdmVyLWhpZGVcIlxyXG4gICAgICAgICAgICAgICAgc3JjPXtJbWFnZXMubXVsdGltZXRlcl9ibHVlfVxyXG4gICAgICAgICAgICAvPlxyXG4gICAgICAgICAgICA8aW1nIFxyXG4gICAgICAgICAgICAgICAgY2xhc3NOYW1lPSdpbWctaG92ZXItc2hvdycgICAgICAgICAgICAgICBcclxuICAgICAgICAgICAgICAgIHNyYz17SW1hZ2VzLm11bHRpbWV0ZXJfd2hpdGV9XHJcbiAgICAgICAgICAgIC8+XHJcbiAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgPHN0eWxlIGpzeD5cclxuICAgICAgICAgICAge2BcclxuICAgICAgICAgICAgICAgIC5ob3Zlci1jYXJkOmhvdmVyIHtcclxuICAgICAgICAgICAgICAgICAgICBcclxuICAgICAgICAgICAgICAgICAgICBib3JkZXI6IDFweCBzb2xpZDtcclxuICAgICAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgYH1cclxuICAgICAgICA8L3N0eWxlPlxyXG4gICAgICAgIDwvPlxyXG4gICAgKVxyXG59XHJcblxyXG4iXX0= */\n/*@ sourceURL=J:\\\\globalServices\\\\globalsolution\\\\pages\\\\components\\\\hoverCards.js */"));
+});
+
+/***/ }),
+
+/***/ "./pages/components/images.js":
+/*!************************************!*\
+  !*** ./pages/components/images.js ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+var multimeter_blue = __webpack_require__(/*! ./../../assets/multimeter_blue.svg */ "./assets/multimeter_blue.svg");
+
+var multimeter_white = __webpack_require__(/*! ./../../assets/multimeter_white.svg */ "./assets/multimeter_white.svg");
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  multimeter_blue: multimeter_blue,
+  multimeter_white: multimeter_white
+});
+
+/***/ }),
+
+/***/ "./pages/components/index.js":
+/*!***********************************!*\
+  !*** ./pages/components/index.js ***!
+  \***********************************/
+/*! exports provided: HoverCardComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _hoverCards__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./hoverCards */ "./pages/components/hoverCards.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "HoverCardComponent", function() { return _hoverCards__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+
+
+
 
 /***/ }),
 
@@ -11081,7 +12087,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "F:\\prakash\\global\\pages\\components\\slider.js";
+var _jsxFileName = "J:\\globalServices\\globalsolution\\pages\\components\\slider.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement;
 
 
@@ -11203,9 +12209,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_index_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_styles_index_css__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _components_slider__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/slider */ "./pages/components/slider.js");
 /* harmony import */ var _components_containerFullHeight__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/containerFullHeight */ "./pages/components/containerFullHeight.js");
-var _jsxFileName = "F:\\prakash\\global\\pages\\index.js";
+/* harmony import */ var _sections_index__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./sections/index */ "./pages/sections/index.js");
+var _jsxFileName = "J:\\globalServices\\globalsolution\\pages\\index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -11216,34 +12224,41 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
   return __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 11
     },
     __self: this
   }, __jsx(_components_Header__WEBPACK_IMPORTED_MODULE_2__["default"], {
     isHome: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 12
     },
     __self: this
   }), __jsx("section", {
     className: "slider-section",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 13
     },
     __self: this
   }, __jsx("div", {
     className: "w-full",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 15
     },
     __self: this
-  }, __jsx(_components_slider__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }), __jsx("div", {
+    className: "w-full",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 18
+    },
+    __self: this
+  }, __jsx(_sections_index__WEBPACK_IMPORTED_MODULE_7__["OurApprochSection"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
     },
     __self: this
   }))));
@@ -11251,14 +12266,65 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 /***/ }),
 
+/***/ "./pages/sections/index.js":
+/*!*********************************!*\
+  !*** ./pages/sections/index.js ***!
+  \*********************************/
+/*! exports provided: OurApprochSection */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _ourApproch__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ourApproch */ "./pages/sections/ourApproch.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "OurApprochSection", function() { return _ourApproch__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+
+
+
+
+/***/ }),
+
+/***/ "./pages/sections/ourApproch.js":
+/*!**************************************!*\
+  !*** ./pages/sections/ourApproch.js ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../components */ "./pages/components/index.js");
+var _jsxFileName = "J:\\globalServices\\globalsolution\\pages\\sections\\ourApproch.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+/* harmony default export */ __webpack_exports__["default"] = (function (props) {
+  return __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, __jsx(_components__WEBPACK_IMPORTED_MODULE_1__["HoverCardComponent"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }));
+});
+
+/***/ }),
+
 /***/ 1:
-/*!***********************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=F%3A%5Cprakash%5Cglobal%5Cpages%5Cindex.js ***!
-  \***********************************************************************************************************/
+/*!**************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=J%3A%5CglobalServices%5Cglobalsolution%5Cpages%5Cindex.js ***!
+  \**************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=F%3A%5Cprakash%5Cglobal%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=F%3A%5Cprakash%5Cglobal%5Cpages%5Cindex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=J%3A%5CglobalServices%5Cglobalsolution%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=J%3A%5CglobalServices%5Cglobalsolution%5Cpages%5Cindex.js!./");
 
 
 /***/ }),
