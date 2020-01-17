@@ -1,0 +1,36 @@
+$font-size: 30px;
+$primary-color-dark:#354EA0;
+$white: #fff;
+$PromptFamily: 'Prompt', sans-serif;
+
+body {
+    font-family: $PromptFamily;
+}
+
+.hover-card{
+    background-color: $white;
+    width: 280px;
+    color: $primary-color-dark;
+    &:hover {
+        background-color: $primary-color-dark;
+        color: $white;
+        & > .img-hover-hide {
+            display: none;
+        }
+        & > .img-hover-show {
+            display: block;
+        }        
+    }
+    h2 {
+        font-size: 32px;
+    }
+    p{
+        font-size: 18px;
+        padding: 4px 16px;
+        text-align: center;
+        word-wrap: wrap;
+    }
+    .img-hover-show {
+        display: none;
+    }
+}
