@@ -1,7 +1,15 @@
-$font-size: 30px;
+// $font-size: 30px;
 $primary-color-dark:#354EA0;
+$secondary-color: #FCB02C;
 $white: #fff;
 $PromptFamily: 'Prompt', sans-serif;
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;    
+}
 
 body {
     font-family: $PromptFamily;
@@ -11,6 +19,7 @@ body {
     background-color: $white;
     width: 280px;
     color: $primary-color-dark;
+    // transition: all 2s;
     &:hover {
         background-color: $primary-color-dark;
         color: $white;
@@ -23,14 +32,68 @@ body {
     }
     h2 {
         font-size: 32px;
+        font-weight: 400;
     }
     p{
         font-size: 18px;
-        padding: 4px 16px;
+        padding: 4px 16px;        
         text-align: center;
+        padding-top: 0;
         word-wrap: wrap;
+        font-size: 400;
+        font-family: $PromptFamily;
     }
     .img-hover-show {
         display: none;
     }
+}
+
+.about_us-section {
+    background: url('./../../assets/wires.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -200px 60px;
+    // background-position: left;
+    // background-repeat: no-repeat;
+    // background-image: url(./../../assets/wires.png);
+    // height: 100%;
+    // width:100%;
+    // background-color: red;
+}
+
+.sub-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 16px;
+    &__wrapper {
+        margin: 25px 0;
+        flex-direction: row;
+        align-self: flex-start;
+    }  
+    &.invert {
+        h3 {
+            color: $white;            
+        }
+        p {
+            color: $white;
+        }
+    }
+    &__border {
+        width: 13px;
+        background-color: $secondary-color;
+        margin-right: 16px;   
+    }
+    h3 {
+        font-size: 45px;
+        color: #222222;
+        font-weight: 500;
+    }
+    p {
+        color: #000000;
+        font-size: 18px;
+        font-family: $PromptFamily;
+        font-weight: lighter;
+    }
+
 }

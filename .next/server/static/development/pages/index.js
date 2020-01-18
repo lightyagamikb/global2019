@@ -115,6 +115,28 @@ module.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTM2IiBoZWlnaHQ9IjEz
 
 /***/ }),
 
+/***/ "./assets/wall.png":
+/*!*************************!*\
+  !*** ./assets/wall.png ***!
+  \*************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/wall-123d2339e654ffa7bc117a217f8e19ba.png";
+
+/***/ }),
+
+/***/ "./assets/wires.png":
+/*!**************************!*\
+  !*** ./assets/wires.png ***!
+  \**************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/wires-33faded7c6c7700eceb72ee748488da6.png";
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/map.js":
 /*!************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/core-js/map.js ***!
@@ -2319,7 +2341,7 @@ const Header = props => {
     },
     __self: undefined
   }), __jsx("nav", {
-    className: "w-100 shadow py-3 px-3",
+    className: "w-100 shadow py-3 px-3 hidden md:block",
     style: _objectSpread({
       height: 60
     }, props.style),
@@ -2530,7 +2552,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
     },
     __self: undefined
   }), __jsx("h2", {
-    className: "jsx-3576074268",
+    className: "jsx-3576074268" + " " + "my-2",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
@@ -2543,10 +2565,10 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
       lineNumber: 16
     },
     __self: undefined
-  }, "lorem ipsun dummy test fjklsfjadfiasdfiasjfklfjjfdklfjdasfidsfj klsfjoisfj;l djfias d;fdsmjfdaif; ")), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+  }, "Mastering the supply with the requirements")), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "3576074268",
     __self: undefined
-  }, ".hover-card.jsx-3576074268:hover{border:1px solid;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIko6XFxnbG9iYWxTZXJ2aWNlc1xcZ2xvYmFsc29sdXRpb25cXHBhZ2VzXFxjb21wb25lbnRzXFxob3ZlckNhcmRzLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQWtCYSxBQUdzQyxpQkFDckIiLCJmaWxlIjoiSjpcXGdsb2JhbFNlcnZpY2VzXFxnbG9iYWxzb2x1dGlvblxccGFnZXNcXGNvbXBvbmVudHNcXGhvdmVyQ2FyZHMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgSW1hZ2VzIGZyb20gJy4vaW1hZ2VzJztcclxuXHJcbmV4cG9ydCBkZWZhdWx0IHByb3BzID0+IHtcclxuICAgIHJldHVybiAoXHJcbiAgICAgICAgPD5cclxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImZsZXggcC00IGp1c3RpZnktY2VudGVyIGhvdmVyLWNhcmQgYm9yZGVyIGZsZXgtY29sIHRleHQtY2VudGVyXCI+XHJcbiAgICAgICAgICAgIDxpbWdcclxuICAgICAgICAgICAgICAgIGNsYXNzTmFtZT1cImltZy1ob3Zlci1oaWRlXCJcclxuICAgICAgICAgICAgICAgIHNyYz17SW1hZ2VzLm11bHRpbWV0ZXJfYmx1ZX1cclxuICAgICAgICAgICAgLz5cclxuICAgICAgICAgICAgPGltZyBcclxuICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0naW1nLWhvdmVyLXNob3cnICAgICAgICAgICAgICAgXHJcbiAgICAgICAgICAgICAgICBzcmM9e0ltYWdlcy5tdWx0aW1ldGVyX3doaXRlfVxyXG4gICAgICAgICAgICAvPlxyXG4gICAgICAgICAgICA8aDI+aGVhZGVyPC9oMj5cclxuICAgICAgICAgICAgPHA+bG9yZW0gaXBzdW4gZHVtbXkgdGVzdCBmamtsc2ZqYWRmaWFzZGZpYXNqZmtsZmpqZmRrbGZqZGFzZmlkc2ZqIGtsc2Zqb2lzZmo7bCBkamZpYXMgZDtmZHNtamZkYWlmOyA8L3A+XHJcbiAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgPHN0eWxlIGpzeD5cclxuICAgICAgICAgICAge2BcclxuICAgICAgICAgICAgICAgIC5ob3Zlci1jYXJkOmhvdmVyIHsgICAgICAgICAgICAgICAgICAgIFxyXG4gICAgICAgICAgICAgICAgICAgIGJvcmRlcjogMXB4IHNvbGlkO1xyXG4gICAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICBgfVxyXG4gICAgICAgIDwvc3R5bGU+XHJcbiAgICAgICAgPC8+XHJcbiAgICApXHJcbn1cclxuXHJcbiJdfQ== */\n/*@ sourceURL=J:\\\\globalServices\\\\globalsolution\\\\pages\\\\components\\\\hoverCards.js */"));
+  }, ".hover-card.jsx-3576074268:hover{border:1px solid;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIko6XFxnbG9iYWxTZXJ2aWNlc1xcZ2xvYmFsc29sdXRpb25cXHBhZ2VzXFxjb21wb25lbnRzXFxob3ZlckNhcmRzLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQW9CYSxBQUdzQyxpQkFDckIiLCJmaWxlIjoiSjpcXGdsb2JhbFNlcnZpY2VzXFxnbG9iYWxzb2x1dGlvblxccGFnZXNcXGNvbXBvbmVudHNcXGhvdmVyQ2FyZHMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgSW1hZ2VzIGZyb20gJy4vaW1hZ2VzJztcclxuXHJcbmV4cG9ydCBkZWZhdWx0IHByb3BzID0+IHtcclxuICAgIHJldHVybiAoXHJcbiAgICAgICAgPD5cclxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImZsZXggcC00IGp1c3RpZnktY2VudGVyIGhvdmVyLWNhcmQgYm9yZGVyIGZsZXgtY29sIHRleHQtY2VudGVyXCI+XHJcbiAgICAgICAgICAgIDxpbWdcclxuICAgICAgICAgICAgICAgIGNsYXNzTmFtZT1cImltZy1ob3Zlci1oaWRlXCJcclxuICAgICAgICAgICAgICAgIHNyYz17SW1hZ2VzLm11bHRpbWV0ZXJfYmx1ZX1cclxuICAgICAgICAgICAgLz5cclxuICAgICAgICAgICAgPGltZyBcclxuICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0naW1nLWhvdmVyLXNob3cnICAgICAgICAgICAgICAgXHJcbiAgICAgICAgICAgICAgICBzcmM9e0ltYWdlcy5tdWx0aW1ldGVyX3doaXRlfVxyXG4gICAgICAgICAgICAvPlxyXG4gICAgICAgICAgICA8aDIgY2xhc3NOYW1lPVwibXktMlwiPmhlYWRlcjwvaDI+XHJcbiAgICAgICAgICAgIDxwPlxyXG4gICAgICAgICAgICAgICAgTWFzdGVyaW5nIHRoZSBzdXBwbHkgd2l0aCB0aGUgcmVxdWlyZW1lbnRzXHJcbiAgICAgICAgICAgIDwvcD5cclxuICAgICAgICA8L2Rpdj5cclxuICAgICAgICA8c3R5bGUganN4PlxyXG4gICAgICAgICAgICB7YFxyXG4gICAgICAgICAgICAgICAgLmhvdmVyLWNhcmQ6aG92ZXIgeyAgICAgICAgICAgICAgICAgICAgXHJcbiAgICAgICAgICAgICAgICAgICAgYm9yZGVyOiAxcHggc29saWQ7XHJcbiAgICAgICAgICAgICAgICB9XHJcbiAgICAgICAgICAgIGB9XHJcbiAgICAgICAgPC9zdHlsZT5cclxuICAgICAgICA8Lz5cclxuICAgIClcclxufVxyXG5cclxuIl19 */\n/*@ sourceURL=J:\\\\globalServices\\\\globalsolution\\\\pages\\\\components\\\\hoverCards.js */"));
 });
 
 /***/ }),
@@ -2564,9 +2586,15 @@ const multimeter_blue = __webpack_require__(/*! ./../../assets/multimeter_blue.s
 
 const multimeter_white = __webpack_require__(/*! ./../../assets/multimeter_white.svg */ "./assets/multimeter_white.svg");
 
+const wires = __webpack_require__(/*! ./../../assets/wires.png */ "./assets/wires.png");
+
+const wallPoster = __webpack_require__(/*! ./../../assets/wall.png */ "./assets/wall.png");
+
 /* harmony default export */ __webpack_exports__["default"] = ({
   multimeter_blue,
-  multimeter_white
+  multimeter_white,
+  wires,
+  wallPoster
 });
 
 /***/ }),
@@ -2575,7 +2603,7 @@ const multimeter_white = __webpack_require__(/*! ./../../assets/multimeter_white
 /*!***********************************!*\
   !*** ./pages/components/index.js ***!
   \***********************************/
-/*! exports provided: HoverCardComponent */
+/*! exports provided: HoverCardComponent, SubHeader, Header, OurServicesCard */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2585,9 +2613,60 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony import */ var _components_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components.scss */ "./pages/components/components.scss");
 /* harmony import */ var _components_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_components_scss__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _subHeader__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./subHeader */ "./pages/components/subHeader.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SubHeader", function() { return _subHeader__WEBPACK_IMPORTED_MODULE_2__["default"]; });
+
+/* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Header */ "./pages/components/Header.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Header", function() { return _Header__WEBPACK_IMPORTED_MODULE_3__["default"]; });
+
+/* harmony import */ var _ourServicesCard__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./ourServicesCard */ "./pages/components/ourServicesCard.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "OurServicesCard", function() { return _ourServicesCard__WEBPACK_IMPORTED_MODULE_4__["default"]; });
 
 
 
+
+
+
+
+
+/***/ }),
+
+/***/ "./pages/components/ourServicesCard.js":
+/*!*********************************************!*\
+  !*** ./pages/components/ourServicesCard.js ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "styled-jsx/style");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "J:\\globalServices\\globalsolution\\pages\\components\\ourServicesCard.js";
+
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+/* harmony default export */ __webpack_exports__["default"] = (({}) => __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx("div", {
+  classNam: "our-section-card relative",
+  className: "jsx-3774054389",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 3
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "jsx-3774054389" + " " + "our-section-card__bottom-card h-10 w-full absolute bottom-0 bg-blue-400",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 4
+  },
+  __self: undefined
+})), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+  id: "3774054389",
+  __self: undefined
+}, "div.our-section-card.jsx-3774054389{width:355px;height:339px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIko6XFxnbG9iYWxTZXJ2aWNlc1xcZ2xvYmFsc29sdXRpb25cXHBhZ2VzXFxjb21wb25lbnRzXFxvdXJTZXJ2aWNlc0NhcmQuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBU1ksQUFHaUMsWUFDQyxhQUNqQiIsImZpbGUiOiJKOlxcZ2xvYmFsU2VydmljZXNcXGdsb2JhbHNvbHV0aW9uXFxwYWdlc1xcY29tcG9uZW50c1xcb3VyU2VydmljZXNDYXJkLmpzIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGRlZmF1bHQgKHt9KSA9PiAoXHJcbiAgICA8PlxyXG4gICAgPGRpdiBjbGFzc05hbT1cIm91ci1zZWN0aW9uLWNhcmQgcmVsYXRpdmVcIj5cclxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIm91ci1zZWN0aW9uLWNhcmRfX2JvdHRvbS1jYXJkIGgtMTAgdy1mdWxsIGFic29sdXRlIGJvdHRvbS0wIGJnLWJsdWUtNDAwXCI+XHJcbiAgICAgICAgICAgIFxyXG4gICAgICAgIDwvZGl2PlxyXG4gICAgPC9kaXY+XHJcbiAgICA8c3R5bGUganN4PlxyXG4gICAgICAgIHtcclxuICAgICAgICAgICAgYFxyXG4gICAgICAgICAgICAgICAgZGl2Lm91ci1zZWN0aW9uLWNhcmQge1xyXG4gICAgICAgICAgICAgICAgICAgIHdpZHRoOiAzNTVweDtcclxuICAgICAgICAgICAgICAgICAgICBoZWlnaHQ6IDMzOXB4O1xyXG4gICAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICBgXHJcbiAgICAgICAgfVxyXG4gICAgPC9zdHlsZT5cclxuICAgIDwvPlxyXG4pIl19 */\n/*@ sourceURL=J:\\\\globalServices\\\\globalsolution\\\\pages\\\\components\\\\ourServicesCard.js */")));
 
 /***/ }),
 
@@ -2692,6 +2771,68 @@ class CarouselComponent extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] 
 
 /***/ }),
 
+/***/ "./pages/components/subHeader.js":
+/*!***************************************!*\
+  !*** ./pages/components/subHeader.js ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "J:\\globalServices\\globalsolution\\pages\\components\\subHeader.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+/* harmony default export */ __webpack_exports__["default"] = (({
+  subHeader,
+  content,
+  noBorder,
+  invertColors,
+  headerStyles,
+  contentStyles,
+  style
+}) => __jsx("div", {
+  className: `sub-header ${invertColors ? 'invert' : null}`,
+  style: style,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 2
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "sub-header__wrapper flex flex-row",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 3
+  },
+  __self: undefined
+}, __jsx("span", {
+  className: "sub-header__border rounded-full",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 4
+  },
+  __self: undefined
+}), __jsx("h3", {
+  style: headerStyles,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 5
+  },
+  __self: undefined
+}, subHeader)), __jsx("p", {
+  style: contentStyles,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 7
+  },
+  __self: undefined
+}, content)));
+
+/***/ }),
+
 /***/ "./pages/index.js":
 /*!************************!*\
   !*** ./pages/index.js ***!
@@ -2705,7 +2846,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/Header */ "./pages/components/Header.js");
+/* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components */ "./pages/components/index.js");
 /* harmony import */ var react_responsive_carousel_lib_styles_carousel_min_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-responsive-carousel/lib/styles/carousel.min.css */ "./node_modules/react-responsive-carousel/lib/styles/carousel.min.css");
 /* harmony import */ var react_responsive_carousel_lib_styles_carousel_min_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_responsive_carousel_lib_styles_carousel_min_css__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _styles_index_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./../styles/index.css */ "./styles/index.css");
@@ -2729,7 +2870,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     lineNumber: 11
   },
   __self: undefined
-}, __jsx(_components_Header__WEBPACK_IMPORTED_MODULE_2__["default"], {
+}, __jsx(_components__WEBPACK_IMPORTED_MODULE_2__["Header"], {
   isHome: true,
   __source: {
     fileName: _jsxFileName,
@@ -2750,17 +2891,56 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     lineNumber: 15
   },
   __self: undefined
-}), __jsx("div", {
-  className: "w-full",
+})), __jsx("section", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 18
+    lineNumber: 20
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "w-full max-w-full md:max-w-3xl lg:max-w-6xl m-auto p-5",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 21
   },
   __self: undefined
 }, __jsx(_sections_index__WEBPACK_IMPORTED_MODULE_7__["OurApprochSection"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 19
+    lineNumber: 22
+  },
+  __self: undefined
+}))), __jsx("section", {
+  className: "",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 25
+  },
+  __self: undefined
+}, __jsx(_sections_index__WEBPACK_IMPORTED_MODULE_7__["Poster"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 26
+  },
+  __self: undefined
+})), __jsx("section", {
+  className: "our-services-section bg-gray-900",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 28
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "w-full md:max-w-3xl lg:max-w-6xl m-auto p-5",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 29
+  },
+  __self: undefined
+}, __jsx(_sections_index__WEBPACK_IMPORTED_MODULE_7__["OurServices"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 30
   },
   __self: undefined
 })))));
@@ -2771,13 +2951,21 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 /*!*********************************!*\
   !*** ./pages/sections/index.js ***!
   \*********************************/
-/*! exports provided: OurApprochSection */
+/*! exports provided: OurApprochSection, Poster, OurServices */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _ourApproch__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ourApproch */ "./pages/sections/ourApproch.js");
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "OurApprochSection", function() { return _ourApproch__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+
+/* harmony import */ var _wallPosters__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./wallPosters */ "./pages/sections/wallPosters.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Poster", function() { return _wallPosters__WEBPACK_IMPORTED_MODULE_1__["default"]; });
+
+/* harmony import */ var _ourServices__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ourServices */ "./pages/sections/ourServices.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "OurServices", function() { return _ourServices__WEBPACK_IMPORTED_MODULE_2__["default"]; });
+
+
 
 
 
@@ -2796,24 +2984,177 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../components */ "./pages/components/index.js");
+/* harmony import */ var _components_images__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../components/images */ "./pages/components/images.js");
 var _jsxFileName = "J:\\globalServices\\globalsolution\\pages\\sections\\ourApproch.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
+
 /* harmony default export */ __webpack_exports__["default"] = (props => {
   return __jsx("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: undefined
-  }, __jsx(_components__WEBPACK_IMPORTED_MODULE_1__["HoverCardComponent"], {
+    className: "flex flex-row",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
     },
     __self: undefined
+  }, __jsx("div", {
+    className: "w-full h-screen md:w-3/5",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: undefined
+  }, __jsx(_components__WEBPACK_IMPORTED_MODULE_1__["SubHeader"] // style={{border: '1px solid'}}
+  , {
+    subHeader: "About us",
+    content: `
+                    The history of this Wyoming plumbing service goes as far back as 1933. These were the times when Samuel Buick created and patented a first ever automatic machine for cleaning pipes and drains. He called it "PlumberPro" and founded a plumbing service with the initial capital which he earned thanks to his invention! Since then, the plumbing service he founded on par with that invention has stayed in that same family's ownership
+                    `,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: undefined
+  }), __jsx("div", {
+    className: "flex md:flex-row mt-6 scrolling-auto overflow-auto ",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: undefined
+  }, __jsx(_components__WEBPACK_IMPORTED_MODULE_1__["HoverCardComponent"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: undefined
+  }), __jsx(_components__WEBPACK_IMPORTED_MODULE_1__["HoverCardComponent"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: undefined
+  }), __jsx(_components__WEBPACK_IMPORTED_MODULE_1__["HoverCardComponent"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: undefined
+  }))), __jsx("div", {
+    className: "about_us-section hidden md:block md:2/5",
+    style: {
+      width: '40%',
+      height: '100vh'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: undefined
   }));
+});
+
+/***/ }),
+
+/***/ "./pages/sections/ourServices.js":
+/*!***************************************!*\
+  !*** ./pages/sections/ourServices.js ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../components */ "./pages/components/index.js");
+var _jsxFileName = "J:\\globalServices\\globalsolution\\pages\\sections\\ourServices.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+const data = ['Electrical Wiring', 'Networking', 'Electrical Maintenance', 'Residential Work', 'Venture Work', 'Automation', 'Electrical Support', 'Electrical Fittings'];
+/* harmony default export */ __webpack_exports__["default"] = (() => {
+  return __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: undefined
+  }, __jsx(_components__WEBPACK_IMPORTED_MODULE_1__["SubHeader"], {
+    invertColors: true,
+    subHeader: "Our Services",
+    content: `The history of this Wyoming plumbing service goes as far back as 1933. These were the times when Samuel Buick created and patented a first ever automatic machine for cleaning pipes and drains. He called it "PlumberPro" and founde`,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: undefined
+  }), __jsx("div", {
+    className: "flex flex-row flex-wrap",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: undefined
+  }));
+});
+
+/***/ }),
+
+/***/ "./pages/sections/wallPosters.js":
+/*!***************************************!*\
+  !*** ./pages/sections/wallPosters.js ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_images__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../components/images */ "./pages/components/images.js");
+var _jsxFileName = "J:\\globalServices\\globalsolution\\pages\\sections\\wallPosters.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+const temp = Array(6).fill(null);
+
+function Poster(props) {
+  return __jsx("div", {
+    className: "poster relative w-100 md:w-1/2 lg:w-1/3 p-2",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, __jsx("img", {
+    src: _components_images__WEBPACK_IMPORTED_MODULE_1__["default"].wallPoster,
+    className: "w-full h-auto insect-0 object-center object-fit",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (() => {
+  return __jsx("div", {
+    className: "flex flx-row flex-wrap",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: undefined
+  }, temp.map((_, i) => __jsx(Poster, {
+    key: i,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: undefined
+  })));
 });
 
 /***/ }),

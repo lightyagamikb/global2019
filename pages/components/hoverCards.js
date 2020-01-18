@@ -12,8 +12,10 @@ export default props => {
                 className='img-hover-show'               
                 src={Images.multimeter_white}
             />
-            <h2>header</h2>
-            <p>lorem ipsun dummy test fjklsfjadfiasdfiasjfklfjjfdklfjdasfidsfj klsfjoisfj;l djfias d;fdsmjfdaif; </p>
+            <h2 className="my-2">header</h2>
+            <p>
+                Mastering the supply with the requirements
+            </p>
         </div>
         <style jsx>
             {`

@@ -1,3 +1,105 @@
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  font-family: "Prompt", sans-serif;
+}
+
+.hover-card {
+  background-color: #fff;
+  width: 280px;
+  color: #354EA0;
+}
+
+.hover-card:hover {
+  background-color: #354EA0;
+  color: #fff;
+}
+
+.hover-card:hover > .img-hover-hide {
+  display: none;
+}
+
+.hover-card:hover > .img-hover-show {
+  display: block;
+}
+
+.hover-card h2 {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.hover-card p {
+  font-size: 18px;
+  padding: 4px 16px;
+  text-align: center;
+  padding-top: 0;
+  word-wrap: wrap;
+  font-size: 400;
+  font-family: "Prompt", sans-serif;
+}
+
+.hover-card .img-hover-show {
+  display: none;
+}
+
+.about_us-section {
+  background: url(/_next/static/images/wires-33faded7c6c7700eceb72ee748488da6.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -200px 60px;
+}
+
+.sub-header {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-align: center;
+          align-items: center;
+  margin-bottom: 16px;
+}
+
+.sub-header__wrapper {
+  margin: 25px 0;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  align-self: flex-start;
+}
+
+.sub-header.invert h3 {
+  color: #fff;
+}
+
+.sub-header.invert p {
+  color: #fff;
+}
+
+.sub-header__border {
+  width: 13px;
+  background-color: #FCB02C;
+  margin-right: 16px;
+}
+
+.sub-header h3 {
+  font-size: 45px;
+  color: #222222;
+  font-weight: 500;
+}
+
+.sub-header p {
+  color: #000000;
+  font-size: 18px;
+  font-family: "Prompt", sans-serif;
+  font-weight: lighter;
+}
+
 .carousel .control-arrow,.carousel.carousel-slider .control-arrow{
   -webkit-transition:all .25s ease-in;
   transition:all .25s ease-in;
@@ -54776,43 +54878,5 @@ video {
     z-index: auto;
   }
 }
-body {
-  font-family: "Prompt", sans-serif;
-}
-
-.hover-card {
-  background-color: #fff;
-  width: 280px;
-  color: #354EA0;
-}
-
-.hover-card:hover {
-  background-color: #354EA0;
-  color: #fff;
-}
-
-.hover-card:hover > .img-hover-hide {
-  display: none;
-}
-
-.hover-card:hover > .img-hover-show {
-  display: block;
-}
-
-.hover-card h2 {
-  font-size: 32px;
-}
-
-.hover-card p {
-  font-size: 18px;
-  padding: 4px 16px;
-  text-align: center;
-  word-wrap: wrap;
-}
-
-.hover-card .img-hover-show {
-  display: none;
-}
-
 
 /*# sourceMappingURL=styles.chunk.css.map*/
