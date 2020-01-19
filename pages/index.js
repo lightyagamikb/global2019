@@ -4,7 +4,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import './../styles/index.css';
 import SliderComponent from './components/slider';
 import FullScreenComponent from './components/containerFullHeight';
-import { OurApprochSection, Poster, OurServices, Brands } from  './sections/index';
+import { OurApprochSection, Poster, OurServices, Brands, WorkingMechanism } from  './sections/index';
 
 
 export default () => (
@@ -40,6 +40,11 @@ export default () => (
         <section>
             <div className="brands-use w-full md:max-w-3xl lg:max-w-6xl m-auto p-5 border-4 pt-0">
                 <Brands />
+            </div>
+        </section>
+        <section className="bg-gray-900">
+            <div className="container mx-auto py-6">
+                <WorkingMechanism />
             </div>
         </section>
     </div>
