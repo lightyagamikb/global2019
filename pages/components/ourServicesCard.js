@@ -1,19 +1,9 @@
-export default ({}) => (
+export default ({title}) => (
     <>
-    <div classNam="our-section-card relative">
-        <div className="our-section-card__bottom-card h-10 w-full absolute bottom-0 bg-blue-400">
-            
+    <div className="our-section-card relative bg-white flex items-end w-full">
+        <div className="our-section-card__bottom w-full text-center mt-auto py-3 align-bottom">
+            <h4 className="font-semibold text-white">{title}</h4>
         </div>
-    </div>
-    <style jsx>
-        {
-            `
-                div.our-section-card {
-                    width: 355px;
-                    height: 339px;
-                }
-            `
-        }
-    </style>
+    </div>  
     </>
 )

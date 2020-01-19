@@ -1,4 +1,5 @@
-// $font-size: 30px;
+
+
 $primary-color-dark:#354EA0;
 $secondary-color: #FCB02C;
 $white: #fff;
@@ -96,4 +97,12 @@ body {
         font-weight: lighter;
     }
 
+}
+
+.our-section-card{
+    // width: 355px;
+    height: 200px;
+    &__bottom {
+        background-color: $primary-color-dark;
+    }
 }
