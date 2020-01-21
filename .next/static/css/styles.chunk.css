@@ -108,6 +108,71 @@ body {
   background-color: #354EA0;
 }
 
+.refer-n-earn h5 {
+  font-size: 45px;
+  color: #222222;
+  font-weight: 500;
+}
+
+.refer-n-earn p {
+  font-size: 14px;
+  color: #222222;
+  font-weight: 200;
+  margin: 8px 0 16px;
+}
+
+.refer-n-earn input {
+  border: 1px solid #707070;
+  border-radius: 3.5px;
+  padding: 4px 16px;
+  width: 100%;
+  max-width: 400px;
+  min-width: 250px;
+}
+
+.refer-n-earn input::-webkit-input-placeholder {
+  color: #707070;
+}
+
+.refer-n-earn input::-moz-placeholder {
+  color: #707070;
+}
+
+.refer-n-earn input:-ms-input-placeholder {
+  color: #707070;
+}
+
+.refer-n-earn input::-ms-input-placeholder {
+  color: #707070;
+}
+
+.refer-n-earn input::placeholder {
+  color: #707070;
+}
+
+.refer-n-earn img {
+  width: 320px;
+  height: 480px;
+}
+
+.refer-n-earn .submit-mail {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  padding: 0px 8px;
+  background-color: #354EA0;
+  border-top-right-radius: 3.5px;
+  border-bottom-right-radius: 3.5px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .refer-n-earn .input-wrapper {
+    max-width: 55%;
+  }
+}
+
 .carousel .control-arrow,.carousel.carousel-slider .control-arrow{
   -webkit-transition:all .25s ease-in;
   transition:all .25s ease-in;
@@ -3787,6 +3852,82 @@ video {
 }
 
 .hidden {
+  display: none;
+}
+
+.hover\:block:hover {
+  display: block;
+}
+
+.hover\:inline-block:hover {
+  display: inline-block;
+}
+
+.hover\:inline:hover {
+  display: inline;
+}
+
+.hover\:flex:hover {
+  display: -webkit-box;
+  display: flex;
+}
+
+.hover\:inline-flex:hover {
+  display: -webkit-inline-box;
+  display: inline-flex;
+}
+
+.hover\:table:hover {
+  display: table;
+}
+
+.hover\:table-row:hover {
+  display: table-row;
+}
+
+.hover\:table-cell:hover {
+  display: table-cell;
+}
+
+.hover\:hidden:hover {
+  display: none;
+}
+
+.focus\:block:focus {
+  display: block;
+}
+
+.focus\:inline-block:focus {
+  display: inline-block;
+}
+
+.focus\:inline:focus {
+  display: inline;
+}
+
+.focus\:flex:focus {
+  display: -webkit-box;
+  display: flex;
+}
+
+.focus\:inline-flex:focus {
+  display: -webkit-inline-box;
+  display: inline-flex;
+}
+
+.focus\:table:focus {
+  display: table;
+}
+
+.focus\:table-row:focus {
+  display: table-row;
+}
+
+.focus\:table-cell:focus {
+  display: table-cell;
+}
+
+.focus\:hidden:focus {
   display: none;
 }
 
@@ -14618,6 +14759,82 @@ video {
     display: none;
   }
 
+  .sm\:hover\:block:hover {
+    display: block;
+  }
+
+  .sm\:hover\:inline-block:hover {
+    display: inline-block;
+  }
+
+  .sm\:hover\:inline:hover {
+    display: inline;
+  }
+
+  .sm\:hover\:flex:hover {
+    display: -webkit-box;
+    display: flex;
+  }
+
+  .sm\:hover\:inline-flex:hover {
+    display: -webkit-inline-box;
+    display: inline-flex;
+  }
+
+  .sm\:hover\:table:hover {
+    display: table;
+  }
+
+  .sm\:hover\:table-row:hover {
+    display: table-row;
+  }
+
+  .sm\:hover\:table-cell:hover {
+    display: table-cell;
+  }
+
+  .sm\:hover\:hidden:hover {
+    display: none;
+  }
+
+  .sm\:focus\:block:focus {
+    display: block;
+  }
+
+  .sm\:focus\:inline-block:focus {
+    display: inline-block;
+  }
+
+  .sm\:focus\:inline:focus {
+    display: inline;
+  }
+
+  .sm\:focus\:flex:focus {
+    display: -webkit-box;
+    display: flex;
+  }
+
+  .sm\:focus\:inline-flex:focus {
+    display: -webkit-inline-box;
+    display: inline-flex;
+  }
+
+  .sm\:focus\:table:focus {
+    display: table;
+  }
+
+  .sm\:focus\:table-row:focus {
+    display: table-row;
+  }
+
+  .sm\:focus\:table-cell:focus {
+    display: table-cell;
+  }
+
+  .sm\:focus\:hidden:focus {
+    display: none;
+  }
+
   .sm\:flex-row {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -25439,6 +25656,82 @@ video {
   }
 
   .md\:hidden {
+    display: none;
+  }
+
+  .md\:hover\:block:hover {
+    display: block;
+  }
+
+  .md\:hover\:inline-block:hover {
+    display: inline-block;
+  }
+
+  .md\:hover\:inline:hover {
+    display: inline;
+  }
+
+  .md\:hover\:flex:hover {
+    display: -webkit-box;
+    display: flex;
+  }
+
+  .md\:hover\:inline-flex:hover {
+    display: -webkit-inline-box;
+    display: inline-flex;
+  }
+
+  .md\:hover\:table:hover {
+    display: table;
+  }
+
+  .md\:hover\:table-row:hover {
+    display: table-row;
+  }
+
+  .md\:hover\:table-cell:hover {
+    display: table-cell;
+  }
+
+  .md\:hover\:hidden:hover {
+    display: none;
+  }
+
+  .md\:focus\:block:focus {
+    display: block;
+  }
+
+  .md\:focus\:inline-block:focus {
+    display: inline-block;
+  }
+
+  .md\:focus\:inline:focus {
+    display: inline;
+  }
+
+  .md\:focus\:flex:focus {
+    display: -webkit-box;
+    display: flex;
+  }
+
+  .md\:focus\:inline-flex:focus {
+    display: -webkit-inline-box;
+    display: inline-flex;
+  }
+
+  .md\:focus\:table:focus {
+    display: table;
+  }
+
+  .md\:focus\:table-row:focus {
+    display: table-row;
+  }
+
+  .md\:focus\:table-cell:focus {
+    display: table-cell;
+  }
+
+  .md\:focus\:hidden:focus {
     display: none;
   }
 
@@ -36266,6 +36559,82 @@ video {
     display: none;
   }
 
+  .lg\:hover\:block:hover {
+    display: block;
+  }
+
+  .lg\:hover\:inline-block:hover {
+    display: inline-block;
+  }
+
+  .lg\:hover\:inline:hover {
+    display: inline;
+  }
+
+  .lg\:hover\:flex:hover {
+    display: -webkit-box;
+    display: flex;
+  }
+
+  .lg\:hover\:inline-flex:hover {
+    display: -webkit-inline-box;
+    display: inline-flex;
+  }
+
+  .lg\:hover\:table:hover {
+    display: table;
+  }
+
+  .lg\:hover\:table-row:hover {
+    display: table-row;
+  }
+
+  .lg\:hover\:table-cell:hover {
+    display: table-cell;
+  }
+
+  .lg\:hover\:hidden:hover {
+    display: none;
+  }
+
+  .lg\:focus\:block:focus {
+    display: block;
+  }
+
+  .lg\:focus\:inline-block:focus {
+    display: inline-block;
+  }
+
+  .lg\:focus\:inline:focus {
+    display: inline;
+  }
+
+  .lg\:focus\:flex:focus {
+    display: -webkit-box;
+    display: flex;
+  }
+
+  .lg\:focus\:inline-flex:focus {
+    display: -webkit-inline-box;
+    display: inline-flex;
+  }
+
+  .lg\:focus\:table:focus {
+    display: table;
+  }
+
+  .lg\:focus\:table-row:focus {
+    display: table-row;
+  }
+
+  .lg\:focus\:table-cell:focus {
+    display: table-cell;
+  }
+
+  .lg\:focus\:hidden:focus {
+    display: none;
+  }
+
   .lg\:flex-row {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -47087,6 +47456,82 @@ video {
   }
 
   .xl\:hidden {
+    display: none;
+  }
+
+  .xl\:hover\:block:hover {
+    display: block;
+  }
+
+  .xl\:hover\:inline-block:hover {
+    display: inline-block;
+  }
+
+  .xl\:hover\:inline:hover {
+    display: inline;
+  }
+
+  .xl\:hover\:flex:hover {
+    display: -webkit-box;
+    display: flex;
+  }
+
+  .xl\:hover\:inline-flex:hover {
+    display: -webkit-inline-box;
+    display: inline-flex;
+  }
+
+  .xl\:hover\:table:hover {
+    display: table;
+  }
+
+  .xl\:hover\:table-row:hover {
+    display: table-row;
+  }
+
+  .xl\:hover\:table-cell:hover {
+    display: table-cell;
+  }
+
+  .xl\:hover\:hidden:hover {
+    display: none;
+  }
+
+  .xl\:focus\:block:focus {
+    display: block;
+  }
+
+  .xl\:focus\:inline-block:focus {
+    display: inline-block;
+  }
+
+  .xl\:focus\:inline:focus {
+    display: inline;
+  }
+
+  .xl\:focus\:flex:focus {
+    display: -webkit-box;
+    display: flex;
+  }
+
+  .xl\:focus\:inline-flex:focus {
+    display: -webkit-inline-box;
+    display: inline-flex;
+  }
+
+  .xl\:focus\:table:focus {
+    display: table;
+  }
+
+  .xl\:focus\:table-row:focus {
+    display: table-row;
+  }
+
+  .xl\:focus\:table-cell:focus {
+    display: table-cell;
+  }
+
+  .xl\:focus\:hidden:focus {
     display: none;
   }
 

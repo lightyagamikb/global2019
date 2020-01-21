@@ -14,6 +14,8 @@ module.exports = {
       center: true, 
     }
   },
-  variants: {},
+  variants: {
+    display: ['responsive', 'hover', 'focus']
+  },
   plugins: []
 }

@@ -15,6 +15,7 @@ const sosWhite = require('./../../assets/sos-warning-white.svg')
 const sosBlack = require('./../../assets/sos-warning.svg')
 const clockWhite = require('./../../assets/clock-circular-outline-white.svg')
 const clockBlack = require('./../../assets/clock-circular-outline.svg')
+const phone = require('./../../assets/phont.png')
 
 
 
@@ -36,4 +37,5 @@ export default {
     sosBlack,
     clockWhite,
     clockBlack,
+    phone
 }

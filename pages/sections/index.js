@@ -3,6 +3,7 @@ import Poster from './wallPosters';
 import OurServices from './ourServices';
 import Brands from './brandsSection';
 import WorkingMechanism from './ourWorkingMechanism';
+import ReferAndEarn from './referAndEarnSection';
 
 export {
     OurApprochSection,
@@ -10,4 +11,5 @@ export {
     OurServices,
     Brands,
     WorkingMechanism,
+    ReferAndEarn
 }
