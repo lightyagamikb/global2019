@@ -5,6 +5,9 @@ import Header from './Header';
 import OurServicesCard from './ourServicesCard';
 import Images from './images';
 import Mechanism from './mechanismCard';
+import TestimonialCard from './testimonialCard';
+import CountCard from './numberCounts';
+import BlogCard from './blogCard';
 
 
 export {
@@ -13,5 +16,8 @@ export {
     Header,
     OurServicesCard,
     Images,
-    Mechanism
+    Mechanism,
+    TestimonialCard,
+    CountCard,
+    BlogCard
 }

@@ -16,6 +16,12 @@ const sosBlack = require('./../../assets/sos-warning.svg')
 const clockWhite = require('./../../assets/clock-circular-outline-white.svg')
 const clockBlack = require('./../../assets/clock-circular-outline.svg')
 const phone = require('./../../assets/phont.png')
+const testimonialImg = require('./../../assets/testimonialImg.png')
+const leftQuoteMark = require('./../../assets/left-quote-mark.svg')
+const arrowRight = require('./../../assets/arrow-point-to-right.svg')
+const blog1 = require('./../../assets/blog-1.png')
+const blog2 = require('./../../assets/blog-2.png')
+const blog3 = require('./../../assets/blog-3.png')
 
 
 
@@ -37,5 +43,11 @@ export default {
     sosBlack,
     clockWhite,
     clockBlack,
-    phone
+    phone,
+    testimonialImg,
+    leftQuoteMark,
+    arrowRight,
+    blog1,
+    blog2,
+    blog3,
 }

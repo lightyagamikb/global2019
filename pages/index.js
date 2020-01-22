@@ -4,7 +4,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import './../styles/index.css';
 import SliderComponent from './components/slider';
 import FullScreenComponent from './components/containerFullHeight';
-import { OurApprochSection, Poster, OurServices, Brands, WorkingMechanism, ReferAndEarn } from  './sections/index';
+import { OurApprochSection, Poster, OurServices, Brands, WorkingMechanism, ReferAndEarn, Testimonial, RecentWorks, CountingSetion, BlogSection } from  './sections/index';
 
 
 export default () => (
@@ -51,6 +51,24 @@ export default () => (
             <div className="container mx-auto py-6 h-screen">
                 <ReferAndEarn />
             </div>
+        </section>
+        <section>
+            <div className="container mx-auto py-6 lg:h-screen w-full md:max-w-3xl lg:max-w-6xl m-auto p-5 justify-center flex flex-col">
+                <Testimonial />
+            </div>
+        </section>
+        <section className="bg-gray-900">
+            <div className="container mx-auto py- w-full md:max-w-3xl lg:max-w-6xl m-auto p-5 justify-center flex flex-col">
+                <RecentWorks />
+            </div>
+        </section>
+        <section className="bg-primary">
+            <div className="container mx-auto w-full md:max-w-3xl lg:max-w-6xl m-auto justify-center flex flex-col">
+                <CountingSetion />
+            </div>
+        </section>
+        <section>
+            <BlogSection />
         </section>
 
     </div>

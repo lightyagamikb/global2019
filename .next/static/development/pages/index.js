@@ -1,5 +1,16 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\index.js"],{
 
+/***/ "./assets/arrow-point-to-right.svg":
+/*!*****************************************!*\
+  !*** ./assets/arrow-point-to-right.svg ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMy4xOTciIGhlaWdodD0iMzkuNiIgdmlld0JveD0iMCAwIDIzLjE5NyAzOS42Ij48ZGVmcz48c3R5bGU+LmF7ZmlsbDojZmZmO3N0cm9rZTojNzA3MDcwO308L3N0eWxlPjwvZGVmcz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyMi41MDQgMzkuMSkgcm90YXRlKDE4MCkiPjxwYXRoIGNsYXNzPSJhIiBkPSJNMjEuMjEyLDIxLjIxMWwtMTYuNiwxNi42QTIuNywyLjcsMCwwLDEsLjc5MiwzMy45ODVMMTUuNDc4LDE5LjMuNzkyLDQuNjE1QTIuNywyLjcsMCwwLDEsNC42MTUuNzkybDE2LjYsMTYuNmEyLjcsMi43LDAsMCwxLDAsMy44MjJaIi8+PC9nPjwvc3ZnPg=="
+
+/***/ }),
+
 /***/ "./assets/avatar.svg":
 /*!***************************!*\
   !*** ./assets/avatar.svg ***!
@@ -8,6 +19,39 @@
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDMuNjU5IiBoZWlnaHQ9IjEyMS44NjciIHZpZXdCb3g9IjAgMCAxMDMuNjU5IDEyMS44NjciPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0zNi4wNzMpIj48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzNi4wNzMpIj48cGF0aCBkPSJNMTYyLjk3OSw2NS42NjVoLjgwOGM3LjM5NC0uMTI2LDEzLjM3NS0yLjcyNiwxNy43OTItNy43LDkuNzE2LTEwLjk1Myw4LjEtMjkuNzI5LDcuOTI0LTMxLjUyLS42MzEtMTMuNDUxLTYuOTktMTkuODg2LTEyLjI0LTIyLjg4OUEyOC4wNTksMjguMDU5LDAsMCwwLDE2My42ODUsMGgtLjQyOWEyOC4xLDI4LjEsMCwwLDAtMTMuNTc3LDMuNDU3Yy01LjMsMy0xMS43Niw5LjQzOC0xMi4zOTEsMjIuOTktLjE3NywxLjc5Mi0xLjc5MiwyMC41NjgsNy45MjQsMzEuNTJDMTQ5LjYsNjIuOTQsMTU1LjU4NSw2NS41MzksMTYyLjk3OSw2NS42NjVaTTE0NC4wMjYsMjcuMDc5YzAtLjA3Ni4wMjUtLjE1MS4wMjUtLjIuODMzLTE4LjA5NSwxMy42NzgtMjAuMDM4LDE5LjE4LTIwLjAzOGguM2M2LjgxNC4xNTEsMTguNCwyLjkyNywxOS4xOCwyMC4wMzhhLjQ5Mi40OTIsMCwwLDAsLjAyNS4yYy4wMjUuMTc3LDEuNzkyLDE3LjMzNy02LjIzMywyNi4zNzItMy4xOCwzLjU4NC03LjQyLDUuMzUtMTMsNS40aC0uMjUyYy01LjU1Mi0uMDUtOS44MTctMS44MTctMTIuOTcyLTUuNEMxNDIuMjg1LDQ0LjQ2NywxNDQsMjcuMjMsMTQ0LjAyNiwyNy4wNzlaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTExLjU5MSkiLz48cGF0aCBkPSJNMTM5LjcyNiwyOTAuNjI3di0uMDc2YzAtLjItLjAyNS0uNC0uMDI1LS42MzEtLjE1MS01LS40NzktMTYuNjgxLTExLjQzMi0yMC40MTYtLjA3Ni0uMDI1LS4xNzctLjA1LS4yNTItLjA3NmE3Mi44MTksNzIuODE5LDAsMCwxLTIwLjk0Ni05LjUzOSwzLjQwNiwzLjQwNiwwLDEsMC0zLjkxMiw1LjU3N0E3OC42LDc4LjYsMCwwLDAsMTI2LjIsMjc1Ljk5YzUuODgsMi4wOTUsNi41MzYsOC4zNzksNi43MTMsMTQuMTMyYTUuMDcyLDUuMDcyLDAsMCwwLC4wMjUuNjMxLDQ1LjgwNiw0NS44MDYsMCwwLDEtLjUzLDcuOGMtNC4wODgsMi4zMjItMjAuMTEzLDEwLjM0Ny00NC40OTIsMTAuMzQ3LTI0LjI3NywwLTQwLjQtOC4wNS00NC41MTctMTAuMzcyYTQzLjM2Niw0My4zNjYsMCwwLDEtLjUzLTcuOGMwLS4yLjAyNS0uNC4wMjUtLjYzMS4xNzctNS43NTQuODMzLTEyLjAzOCw2LjcxMy0xNC4xMzJhNzkuMzM0LDc5LjMzNCwwLDAsMCwyMy4wNDEtMTAuNTI0LDMuNDA2LDMuNDA2LDAsMSwwLTMuOTEyLTUuNTc3QTcyLjAyMSw3Mi4wMjEsMCwwLDEsNDcuNzg5LDI2OS40Yy0uMS4wMjUtLjE3Ny4wNS0uMjUyLjA3NkMzNi41ODQsMjczLjIzOSwzNi4yNTYsMjg0LjkyNCwzNi4xLDI4OS45YTUuMDY5LDUuMDY5LDAsMCwxLS4wMjUuNjMxdi4wNzZjLS4wMjUsMS4zMTItLjA1LDguMDUsMS4yODcsMTEuNDMyYTMuMjM4LDMuMjM4LDAsMCwwLDEuMzEyLDEuNTljLjc1Ny41LDE4LjksMTIuMDYzLDQ5LjI2MSwxMi4wNjNzNDguNS0xMS41ODQsNDkuMjYxLTEyLjA2M2EzLjM3NywzLjM3NywwLDAsMCwxLjMxMi0xLjU5QzEzOS43NzYsMjk4LjY3OCwxMzkuNzUxLDI5MS45MzksMTM5LjcyNiwyOTAuNjI3WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTM2LjA3MyAtMTkzLjgyKSIvPjwvZz48L2c+PC9zdmc+"
+
+/***/ }),
+
+/***/ "./assets/blog-1.png":
+/*!***************************!*\
+  !*** ./assets/blog-1.png ***!
+  \***************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/blog-1-77dc57305fad15edf724dd775996a0d8.png";
+
+/***/ }),
+
+/***/ "./assets/blog-2.png":
+/*!***************************!*\
+  !*** ./assets/blog-2.png ***!
+  \***************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/blog-2-3866e95ec2bf24ae3623c06d22b695c2.png";
+
+/***/ }),
+
+/***/ "./assets/blog-3.png":
+/*!***************************!*\
+  !*** ./assets/blog-3.png ***!
+  \***************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/blog-3-9d1641b89dd3f5e1d55bcb10bbcea99d.png";
 
 /***/ }),
 
@@ -74,6 +118,17 @@ module.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTkiIGhlaWdodD0iOTki
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5OC44MDEiIGhlaWdodD0iOTguOCIgdmlld0JveD0iMCAwIDk4LjgwMSA5OC44Ij48ZGVmcz48c3R5bGU+LmF7ZmlsbDojMjIyO308L3N0eWxlPjwvZGVmcz48cGF0aCBjbGFzcz0iYSIgZD0iTTQ5LjQsMEE0OS40LDQ5LjQsMCwxLDAsOTguOCw0OS40LDQ5LjQ1Niw0OS40NTYsMCwwLDAsNDkuNCwwWm0wLDg4LjI4OUEzOC44ODksMzguODg5LDAsMSwxLDg4LjI5LDQ5LjQsMzguOTMzLDM4LjkzMywwLDAsMSw0OS40LDg4LjI4OVoiLz48cGF0aCBjbGFzcz0iYSIgZD0iTTc0LjQsNDcuNTkxSDUyLjJWMjAuOWE0LjA2OCw0LjA2OCwwLDEsMC04LjEzNSwwVjUxLjY1OGE0LjA2OCw0LjA2OCwwLDAsMCw0LjA2OCw0LjA2OEg3NC40YTQuMDY4LDQuMDY4LDAsMCwwLDAtOC4xMzVaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjc0NCAwLjI4NCkiLz48L3N2Zz4="
+
+/***/ }),
+
+/***/ "./assets/left-quote-mark.svg":
+/*!************************************!*\
+  !*** ./assets/left-quote-mark.svg ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1Ny42NDciIGhlaWdodD0iNDIuOCIgdmlld0JveD0iMCAwIDU3LjY0NyA0Mi44Ij48ZGVmcz48c3R5bGU+LmF7ZmlsbDojZmZmO3N0cm9rZTojNzA3MDcwO308L3N0eWxlPjwvZGVmcz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjUgMC41KSI+PHBhdGggY2xhc3M9ImEiIGQ9Ik01Ni41OSw1OC40NjdhMS4xODYsMS4xODYsMCwwLDEtLjI0LDEuMTI4LDEuNzA4LDEuNzA4LDAsMCwxLTEuMTQuNjQ1cS0xMC4yNjIsMS4yODktMTAuMzgyLDguNTk1aDYuMTgxYTEuNjUzLDEuNjUzLDAsMCwxLDEuMTQuNDMsMS4zMjcsMS4zMjcsMCwwLDEsLjQ4LDEuMDIxVjkxLjAxOWExLjM4MiwxLjM4MiwwLDAsMS0uNDgsMS4wNzQsMS42NTIsMS42NTIsMCwwLDEtMS4xNC40M0gzMS42MjZhMS43NjUsMS43NjUsMCwwLDEtMS4xNzEtLjQzLDEuMzQ4LDEuMzQ4LDAsMCwxLS41MS0xLjA3NFY3My4wNzhxMC0xMC42MzYsNS44MjEtMTYuMjIzVDUzLjI5LDUwLjczMUExLjYyMiwxLjYyMiwwLDAsMSw1NC4zNyw1MWExLjM2MywxLjM2MywwLDAsMSwuNi44NTlsMS42MjEsNi42MDdabS0yOS45NDYsMGExLjE4NiwxLjE4NiwwLDAsMS0uMjQsMS4xMjgsMS42MDksMS42MDksMCwwLDEtMS4xNC42NDVRMTUsNjEuNTI4LDE0Ljg4Myw2OC44MzRoNi4xODFhMS42NTIsMS42NTIsMCwwLDEsMS4xNC40MywxLjMyNywxLjMyNywwLDAsMSwuNDgsMS4wMjFWOTEuMDE5YTEuMzgyLDEuMzgyLDAsMCwxLS40OCwxLjA3NCwxLjY1MiwxLjY1MiwwLDAsMS0xLjE0LjQzSDEuNjhhMS43NjUsMS43NjUsMCwwLDEtMS4xNy0uNDNBMS4zNDgsMS4zNDgsMCwwLDEsMCw5MS4wMTlWNzMuMDc4UTAsNjIuNDQyLDUuODIxLDU2Ljg1NXQxNy41MjMtNi4xMjRhMS42MjIsMS42MjIsMCwwLDEsMS4wOC4yNjksMS4zNjYsMS4zNjYsMCwwLDEsLjYuODU5WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCAtNTAuNzI0KSIvPjwvZz48L3N2Zz4="
 
 /***/ }),
 
@@ -173,6 +228,17 @@ module.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5v
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQxIiBoZWlnaHQ9IjU3IiB2aWV3Qm94PSIwIDAgMTQxIDU3IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPg0KPGcgY2xpcC1wYXRoPSJ1cmwoI2NsaXAwKSI+DQo8cGF0aCBkPSJNMjQuNDc2IDIzLjA1NEMxNi43OTEgMjAuNzE1IDEzLjE3IDE5LjE1OSAxMy4xNyAxNS4wMThDMTMuMTcgMTAuNTA4IDIwLjA4IDEwLjE1OCAyMi4xOTkgMTAuMTU4QzI2LjIxMTcgMTAuMjIxNSAzMC4xNTAxIDExLjI1MDUgMzMuNjgxIDEzLjE1OEMzNC4xNzkyIDEzLjQyNzQgMzQuNzI3NSAxMy41OTEzIDM1LjI5MTggMTMuNjM5NkMzNS44NTYxIDEzLjY4OCAzNi40MjQzIDEzLjYxOTYgMzYuOTYxMSAxMy40Mzg4QzM3LjQ5NzggMTMuMjU4MSAzNy45OTE2IDEyLjk2ODggMzguNDExNyAxMi41ODlDMzguODMxOCAxMi4yMDkxIDM5LjE2OTIgMTEuNzQ2OSAzOS40MDMgMTEuMjMxTDQwLjIyNyA5LjQxMkM0MC42NTI3IDguNDcxMDggNDAuNzEwMiA3LjQwNDczIDQwLjM4OCA2LjQyMzUxQzQwLjA2NTkgNS40NDIyOSAzOS4zODc2IDQuNjE3NSAzOC40ODcgNC4xMTJDMzMuNjA0OSAxLjQ0MjcxIDI4LjEzNTEgMC4wMzA5MTY1IDIyLjU3MSAwLjAwMzk5NzhDMTAuNTYgMC4wMDM5OTc4IDIuNDkgNi4yNDkgMi40OSAxNS41NDNDMi40OSAyNy4xNDMgMTIuMzcyIDMwLjA4MyAyMC4zMTQgMzIuNDQzQzI4LjM5NiAzNC44NDMgMzEuNzcyIDM2LjUxMiAzMS43NDkgNDAuNjQzQzMxLjc0OSA0Ni4xNzggMjMuOTg0IDQ2LjYwOSAyMS42MDQgNDYuNjA5QzE2LjQ0NjMgNDYuNDc4MyAxMS40Nzc3IDQ0LjYzOTkgNy40NzcgNDEuMzgyQzYuOTk2MTcgNDAuOTk5NCA2LjQzNTk3IDQwLjcyOSA1LjgzNzMxIDQwLjU5MDZDNS4yMzg2NCA0MC40NTIxIDQuNjE2NjEgNDAuNDQ5MSA0LjAxNjYzIDQwLjU4MTdDMy40MTY2NSA0MC43MTQ0IDIuODUzODUgNDAuOTc5MyAyLjM2OTMyIDQxLjM1NzJDMS44ODQ3OSA0MS43MzUxIDEuNDkwNzcgNDIuMjE2NCAxLjIxNiA0Mi43NjZMMC40MzU5OTggNDQuMzI2QzAuMDIwNjc1MiA0NS4xNTU4IC0wLjEwMjg4MyA0Ni4xMDEzIDAuMDg1MjY5OCA0Ny4wMUMwLjI3MzQyMyA0Ny45MTg2IDAuNzYyMzA4IDQ4LjczNzQgMS40NzMgNDkuMzM0QzcuMTI0NzggNTMuOTk5NSAxNC4yMDA5IDU2LjU5NDIgMjEuNTI5IDU2LjY4OEMzNC4wMjkgNTYuNjg4IDQyLjQyOSA1MC4xMTQgNDIuNDI5IDQwLjM0NkM0Mi40NzYgMjguNTM0IDMyLjQ5OSAyNS40OTYgMjQuNDc2IDIzLjA1NFoiIGZpbGw9ImJsYWNrIi8+DQo8cGF0aCBkPSJNNzEuMjYxIDAuMDc1MDEyMkM1NC43ODIgMC4wNzUwMTIyIDQxLjg3NCAxMi40OTIgNDEuODc0IDI4LjM0NkM0MS44NzQgNDQuMjgxIDU0Ljc4MiA1Ni43NjUgNzEuMjYxIDU2Ljc2NUM4Ny42OTggNTYuNzY1IDEwMC41NzQgNDQuMjgyIDEwMC41NzQgMjguMzQ2QzEwMC41NzQgMTIuNDkyIDg3LjY5OCAwLjA3NTAxMjIgNzEuMjYxIDAuMDc1MDEyMlpNNzEuMjYxIDQ2LjkwNEM2MC42NjEgNDYuOTA0IDUyLjAzMiAzOC41NzkgNTIuMDMyIDI4LjM0NkM1Mi4wMzIgMTguMTUzIDYwLjY1OCA5Ljg2MjAxIDcxLjI2MSA5Ljg2MjAxQzgxLjc4MSA5Ljg2MjAxIDkwLjM0MSAxOC4xNTQgOTAuMzQxIDI4LjM0NkM5MC4zNDIgMzguNTc4IDgxLjc4MiA0Ni45MDQgNzEuMjYxIDQ2LjkwNFoiIGZpbGw9ImJsYWNrIi8+DQo8cGF0aCBkPSJNMTIzLjA0NSAyMy4wNTRDMTE1LjM2MSAyMC43MTQgMTExLjc0NSAxOS4xNTQgMTExLjc0NSAxNS4wMThDMTExLjc0NSAxMC41MDggMTE4LjY1NiAxMC4xNTggMTIwLjc3NSAxMC4xNThDMTI0Ljc4OCAxMC4yMjE1IDEyOC43MjYgMTEuMjUwNSAxMzIuMjU3IDEzLjE1OEMxMzIuNzU1IDEzLjQyNzIgMTMzLjMwMyAxMy41OTEgMTMzLjg2OCAxMy42MzkzQzEzNC40MzIgMTMuNjg3NSAxMzUgMTMuNjE5MSAxMzUuNTM2IDEzLjQzODNDMTM2LjA3MyAxMy4yNTc2IDEzNi41NjcgMTIuOTY4NCAxMzYuOTg3IDEyLjU4ODZDMTM3LjQwNyAxMi4yMDg5IDEzNy43NDQgMTEuNzQ2NyAxMzcuOTc4IDExLjIzMUwxMzguODAzIDkuNDEyQzEzOS4yMjggOC40NzEwNCAxMzkuMjg2IDcuNDA0NzggMTM4Ljk2NCA2LjQyMzYyQzEzOC42NDIgNS40NDI0NiAxMzcuOTYzIDQuNjE3NjcgMTM3LjA2MyA0LjExMkMxMzIuMTgxIDEuNDQyNzkgMTI2LjcxMSAwLjAzMTAwMDUgMTIxLjE0NyAwLjAwMzk5NzhDMTA5LjEzNiAwLjAwMzk5NzggMTAxLjA2NiA2LjI0OSAxMDEuMDY2IDE1LjU0M0MxMDEuMDY2IDI3LjE0MyAxMTAuOTQ4IDMwLjA4MyAxMTguODg5IDMyLjQ0M0MxMjYuOTcxIDM0Ljg0MyAxMzAuMzQ2IDM2LjUxMiAxMzAuMzI0IDQwLjY0M0MxMzAuMzI0IDQ2LjE3OSAxMjIuNTU4IDQ2LjYwOSAxMjAuMTc3IDQ2LjYwOUMxMTUuMDE5IDQ2LjQ3OTYgMTEwLjA1IDQ0LjY0MjYgMTA2LjA0OSA0MS4zODZDMTA1LjU2OCA0MS4wMDM0IDEwNS4wMDggNDAuNzMzIDEwNC40MDkgNDAuNTk0NkMxMDMuODExIDQwLjQ1NjEgMTAzLjE4OSA0MC40NTMxIDEwMi41ODkgNDAuNTg1N0MxMDEuOTg5IDQwLjcxODQgMTAxLjQyNiA0MC45ODMzIDEwMC45NDEgNDEuMzYxMkMxMDAuNDU3IDQxLjczOTEgMTAwLjA2MyA0Mi4yMjA0IDk5Ljc4OCA0Mi43N0w5OS4wMDggNDQuMzNDOTguNTkyOCA0NS4xNTk5IDk4LjQ2OTQgNDYuMTA1NSA5OC42NTc3IDQ3LjAxNDJDOTguODQ2MSA0Ny45MjI4IDk5LjMzNTEgNDguNzQxNSAxMDAuMDQ2IDQ5LjMzOEMxMDUuNjk4IDU0LjAwMzIgMTEyLjc3NCA1Ni41OTc4IDEyMC4xMDIgNTYuNjkyQzEzMi42MDIgNTYuNjkyIDE0MS4wMDIgNTAuMTE4IDE0MS4wMDIgNDAuMzVDMTQxLjA0NSAyOC41MzQgMTMxLjA2NSAyNS40OTYgMTIzLjA0NSAyMy4wNTRaIiBmaWxsPSJibGFjayIvPg0KPC9nPg0KPHJlY3QgeD0iMC41IiB5PSIwLjUiIHdpZHRoPSIxNDAiIGhlaWdodD0iNTUuNzY0IiBzdHJva2U9IndoaXRlIi8+DQo8ZGVmcz4NCjxjbGlwUGF0aCBpZD0iY2xpcDAiPg0KPC9jbGlwUGF0aD4NCjwvZGVmcz4NCjwvc3ZnPg0K"
+
+/***/ }),
+
+/***/ "./assets/testimonialImg.png":
+/*!***********************************!*\
+  !*** ./assets/testimonialImg.png ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/testimonialImg-12ca7ea87940f58ace1b95616917f2fe.png";
 
 /***/ }),
 
@@ -12140,6 +12206,95 @@ var Header = function Header(props) {
 
 /***/ }),
 
+/***/ "./pages/components/blogCard.js":
+/*!**************************************!*\
+  !*** ./pages/components/blogCard.js ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "F:\\prakash\\global\\pages\\components\\blogCard.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+/* harmony default export */ __webpack_exports__["default"] = (function (_ref) {
+  var imgSrc = _ref.imgSrc,
+      header = _ref.header,
+      content = _ref.content,
+      goTo = _ref.goTo;
+  return __jsx("div", {
+    className: "max-w-sm rounded overflow-hidden shadow-lg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 3
+    },
+    __self: this
+  }, __jsx("img", {
+    className: "w-full",
+    src: "https://tailwindcss.com/img/card-top.jpg",
+    alt: "Sunset in the mountains",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4
+    },
+    __self: this
+  }), __jsx("div", {
+    className: "px-6 py-4",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "font-bold text-xl mb-2",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, "The Coldest Sunset"), __jsx("p", {
+    className: "text-gray-700 text-base",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.")), __jsx("div", {
+    className: "px-6 py-4",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, __jsx("span", {
+    className: "inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, "#photography"), __jsx("span", {
+    className: "inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, "#travel"), __jsx("span", {
+    className: "inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, "#winter")));
+});
+
+/***/ }),
+
 /***/ "./pages/components/containerFullHeight.js":
 /*!*************************************************!*\
   !*** ./pages/components/containerFullHeight.js ***!
@@ -12278,6 +12433,18 @@ var clockBlack = __webpack_require__(/*! ./../../assets/clock-circular-outline.s
 
 var phone = __webpack_require__(/*! ./../../assets/phont.png */ "./assets/phont.png");
 
+var testimonialImg = __webpack_require__(/*! ./../../assets/testimonialImg.png */ "./assets/testimonialImg.png");
+
+var leftQuoteMark = __webpack_require__(/*! ./../../assets/left-quote-mark.svg */ "./assets/left-quote-mark.svg");
+
+var arrowRight = __webpack_require__(/*! ./../../assets/arrow-point-to-right.svg */ "./assets/arrow-point-to-right.svg");
+
+var blog1 = __webpack_require__(/*! ./../../assets/blog-1.png */ "./assets/blog-1.png");
+
+var blog2 = __webpack_require__(/*! ./../../assets/blog-2.png */ "./assets/blog-2.png");
+
+var blog3 = __webpack_require__(/*! ./../../assets/blog-3.png */ "./assets/blog-3.png");
+
 /* harmony default export */ __webpack_exports__["default"] = ({
   multimeter_blue: multimeter_blue,
   multimeter_white: multimeter_white,
@@ -12296,7 +12463,13 @@ var phone = __webpack_require__(/*! ./../../assets/phont.png */ "./assets/phont.
   sosBlack: sosBlack,
   clockWhite: clockWhite,
   clockBlack: clockBlack,
-  phone: phone
+  phone: phone,
+  testimonialImg: testimonialImg,
+  leftQuoteMark: leftQuoteMark,
+  arrowRight: arrowRight,
+  blog1: blog1,
+  blog2: blog2,
+  blog3: blog3
 });
 
 /***/ }),
@@ -12305,7 +12478,7 @@ var phone = __webpack_require__(/*! ./../../assets/phont.png */ "./assets/phont.
 /*!***********************************!*\
   !*** ./pages/components/index.js ***!
   \***********************************/
-/*! exports provided: HoverCardComponent, SubHeader, Header, OurServicesCard, Images, Mechanism */
+/*! exports provided: HoverCardComponent, SubHeader, Header, OurServicesCard, Images, Mechanism, TestimonialCard, CountCard, BlogCard */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12329,6 +12502,18 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony import */ var _mechanismCard__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./mechanismCard */ "./pages/components/mechanismCard.js");
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Mechanism", function() { return _mechanismCard__WEBPACK_IMPORTED_MODULE_6__["default"]; });
+
+/* harmony import */ var _testimonialCard__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./testimonialCard */ "./pages/components/testimonialCard.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TestimonialCard", function() { return _testimonialCard__WEBPACK_IMPORTED_MODULE_7__["default"]; });
+
+/* harmony import */ var _numberCounts__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./numberCounts */ "./pages/components/numberCounts.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "CountCard", function() { return _numberCounts__WEBPACK_IMPORTED_MODULE_8__["default"]; });
+
+/* harmony import */ var _blogCard__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./blogCard */ "./pages/components/blogCard.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "BlogCard", function() { return _blogCard__WEBPACK_IMPORTED_MODULE_9__["default"]; });
+
+
+
 
 
 
@@ -12390,6 +12575,60 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     },
     __self: this
   }));
+});
+
+/***/ }),
+
+/***/ "./pages/components/numberCounts.js":
+/*!******************************************!*\
+  !*** ./pages/components/numberCounts.js ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "F:\\prakash\\global\\pages\\components\\numberCounts.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+/* harmony default export */ __webpack_exports__["default"] = (function (_ref) {
+  var count = _ref.count,
+      title = _ref.title;
+  return __jsx("div", {
+    className: "flex flex-col justify-center items-center p-4 border-r border-gray-200 bg-primary flex-1 w-full",
+    style: {
+      borderWidth: 0.25,
+      borderColor: 'transparent'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 2
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "text-5xl text-white",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 3
+    },
+    __self: this
+  }, count), __jsx("div", {
+    className: "w-6 h-1 bg-secondary rounded-lg font-semibold mb-4",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4
+    },
+    __self: this
+  }), __jsx("div", {
+    className: "text-gray-100",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, title));
 });
 
 /***/ }),
@@ -12624,6 +12863,84 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 /***/ }),
 
+/***/ "./pages/components/testimonialCard.js":
+/*!*********************************************!*\
+  !*** ./pages/components/testimonialCard.js ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "F:\\prakash\\global\\pages\\components\\testimonialCard.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+/* harmony default export */ __webpack_exports__["default"] = (function (_ref) {
+  var imgSrc = _ref.imgSrc,
+      imgStyle = _ref.imgStyle,
+      name = _ref.name,
+      comment = _ref.comment,
+      imgSrc_2 = _ref.imgSrc_2;
+  return __jsx("div", {
+    className: "w-full border-r-3 bg-primary flex p-3",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 3
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "flex flex-col ",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4
+    },
+    __self: this
+  }, __jsx("img", {
+    src: imgSrc,
+    style: imgStyle,
+    className: "w-15 h-15 border border-gray-700",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }), __jsx("img", {
+    src: imgSrc_2,
+    style: imgStyle,
+    className: "w-10 h-10 border border-gray-700 mt-auto mb-4",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  })), __jsx("div", {
+    className: "flex flex-col ml-4",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, __jsx("h4", {
+    className: "font-semibold text-white text-xl mb-1",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, name), __jsx("p", {
+    className: "text-sm text-white font-light",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, comment)));
+});
+
+/***/ }),
+
 /***/ "./pages/index.js":
 /*!************************!*\
   !*** ./pages/index.js ***!
@@ -12812,7 +13129,119 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
       lineNumber: 52
     },
     __self: this
-  }))));
+  }))), __jsx("section", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "container mx-auto py-6 lg:h-screen w-full md:max-w-3xl lg:max-w-6xl m-auto p-5 justify-center flex flex-col",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56
+    },
+    __self: this
+  }, __jsx(_sections_index__WEBPACK_IMPORTED_MODULE_7__["Testimonial"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57
+    },
+    __self: this
+  }))), __jsx("section", {
+    className: "bg-gray-900",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "container mx-auto py- w-full md:max-w-3xl lg:max-w-6xl m-auto p-5 justify-center flex flex-col",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61
+    },
+    __self: this
+  }, __jsx(_sections_index__WEBPACK_IMPORTED_MODULE_7__["RecentWorks"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 62
+    },
+    __self: this
+  }))), __jsx("section", {
+    className: "bg-primary",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 65
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "container mx-auto w-full md:max-w-3xl lg:max-w-6xl m-auto justify-center flex flex-col",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 66
+    },
+    __self: this
+  }, __jsx(_sections_index__WEBPACK_IMPORTED_MODULE_7__["CountingSetion"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 67
+    },
+    __self: this
+  }))), __jsx("section", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 70
+    },
+    __self: this
+  }, __jsx(_sections_index__WEBPACK_IMPORTED_MODULE_7__["BlogSection"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 71
+    },
+    __self: this
+  })));
+});
+
+/***/ }),
+
+/***/ "./pages/sections/blogSection.js":
+/*!***************************************!*\
+  !*** ./pages/sections/blogSection.js ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_objectDestructuringEmpty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/objectDestructuringEmpty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/objectDestructuringEmpty.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../components */ "./pages/components/index.js");
+
+var _jsxFileName = "F:\\prakash\\global\\pages\\sections\\blogSection.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+
+var data = [1, 2, 3];
+/* harmony default export */ __webpack_exports__["default"] = (function (_ref) {
+  Object(_babel_runtime_corejs2_helpers_esm_objectDestructuringEmpty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref);
+
+  return __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, data.map(function (i) {
+    return __jsx(_components__WEBPACK_IMPORTED_MODULE_2__["BlogCard"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 8
+      },
+      __self: this
+    });
+  }));
 });
 
 /***/ }),
@@ -12932,11 +13361,67 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 /***/ }),
 
+/***/ "./pages/sections/countingSetion.js":
+/*!******************************************!*\
+  !*** ./pages/sections/countingSetion.js ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_objectDestructuringEmpty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/objectDestructuringEmpty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/objectDestructuringEmpty.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../components */ "./pages/components/index.js");
+
+var _jsxFileName = "F:\\prakash\\global\\pages\\sections\\countingSetion.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+
+var data = [{
+  count: 60,
+  title: 'Years of Experience'
+}, {
+  count: 3575,
+  title: 'Quilified Workers'
+}, {
+  count: 84049,
+  title: 'Successful Deals Made'
+}, {
+  count: 28,
+  title: 'Partners Worldwide'
+}];
+/* harmony default export */ __webpack_exports__["default"] = (function (_ref) {
+  Object(_babel_runtime_corejs2_helpers_esm_objectDestructuringEmpty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref);
+
+  return __jsx("div", {
+    className: "flex justify-between align-center",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }, data.map(function (item) {
+    return __jsx(_components__WEBPACK_IMPORTED_MODULE_2__["CountCard"], {
+      title: item.title,
+      count: item.count,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 25
+      },
+      __self: this
+    });
+  }));
+});
+
+/***/ }),
+
 /***/ "./pages/sections/index.js":
 /*!*********************************!*\
   !*** ./pages/sections/index.js ***!
   \*********************************/
-/*! exports provided: OurApprochSection, Poster, OurServices, Brands, WorkingMechanism, ReferAndEarn */
+/*! exports provided: OurApprochSection, Poster, OurServices, Brands, WorkingMechanism, ReferAndEarn, Testimonial, RecentWorks, CountingSetion, BlogSection */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12958,6 +13443,22 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony import */ var _referAndEarnSection__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./referAndEarnSection */ "./pages/sections/referAndEarnSection.js");
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ReferAndEarn", function() { return _referAndEarnSection__WEBPACK_IMPORTED_MODULE_5__["default"]; });
+
+/* harmony import */ var _testimonials__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./testimonials */ "./pages/sections/testimonials.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Testimonial", function() { return _testimonials__WEBPACK_IMPORTED_MODULE_6__["default"]; });
+
+/* harmony import */ var _recentWorksSection__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./recentWorksSection */ "./pages/sections/recentWorksSection.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "RecentWorks", function() { return _recentWorksSection__WEBPACK_IMPORTED_MODULE_7__["default"]; });
+
+/* harmony import */ var _countingSetion__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./countingSetion */ "./pages/sections/countingSetion.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "CountingSetion", function() { return _countingSetion__WEBPACK_IMPORTED_MODULE_8__["default"]; });
+
+/* harmony import */ var _blogSection__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./blogSection */ "./pages/sections/blogSection.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "BlogSection", function() { return _blogSection__WEBPACK_IMPORTED_MODULE_9__["default"]; });
+
+
+
+
 
 
 
@@ -13233,6 +13734,119 @@ var data = [{
 
 /***/ }),
 
+/***/ "./pages/sections/recentWorksSection.js":
+/*!**********************************************!*\
+  !*** ./pages/sections/recentWorksSection.js ***!
+  \**********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../components */ "./pages/components/index.js");
+var _jsxFileName = "F:\\prakash\\global\\pages\\sections\\recentWorksSection.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+var data = ['All', 'Fresh Wiring', 'Installation', 'Products', 'Repair', 'Ventures'];
+var imgData = Array(10).fill(null);
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(_components__WEBPACK_IMPORTED_MODULE_1__["SubHeader"], {
+    subHeader: "Recent Works",
+    invertColors: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }), __jsx("div", {
+    className: "flex flex-wrap content-center items-center text-center",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, data.map(function (c, index) {
+    return __jsx("div", {
+      className: "text-2xl text-white mx-2 hover:text-secondary",
+      key: index,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 15
+      },
+      __self: this
+    }, c);
+  })), __jsx("div", {
+    className: "flex flex-wrap -mx-4",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }, imgData.map(function (item, index) {
+    return __jsx("div", {
+      className: "bg-white m-4 h-48 w-48",
+      key: index,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 20
+      },
+      __self: this
+    });
+  })), __jsx("div", {
+    className: "flex w-full my-3",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "bg-primary w-8 h-8 relative ml-auto mr-4 cursor-pointer",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, __jsx("img", {
+    src: _components__WEBPACK_IMPORTED_MODULE_1__["Images"].arrowRight,
+    className: "absolute inset-0 object-contain object-center",
+    style: {
+      transform: 'scale(0.6)',
+      marginTop: -4,
+      marginLeft: 4
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  })), __jsx("div", {
+    className: "bg-primary w-8 h-8 relative mr-4 cursor-pointer",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  }, __jsx("img", {
+    src: _components__WEBPACK_IMPORTED_MODULE_1__["Images"].arrowRight,
+    className: "absolute inset-0 object-contain object-center",
+    style: {
+      transform: 'scale(0.6) rotate(180deg)',
+      marginTop: -4,
+      marginLeft: 6
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: this
+  }))));
+});
+
+/***/ }),
+
 /***/ "./pages/sections/referAndEarnSection.js":
 /*!***********************************************!*\
   !*** ./pages/sections/referAndEarnSection.js ***!
@@ -13292,7 +13906,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
       lineNumber: 16
     },
     __self: this
-  }, "Refer And Eard"), __jsx("p", {
+  }, "Refer And Earn"), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17
@@ -13337,6 +13951,78 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
     },
     __self: this
   }, "go")))));
+});
+
+/***/ }),
+
+/***/ "./pages/sections/testimonials.js":
+/*!****************************************!*\
+  !*** ./pages/sections/testimonials.js ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_objectDestructuringEmpty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/objectDestructuringEmpty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/objectDestructuringEmpty.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../components */ "./pages/components/index.js");
+
+var _jsxFileName = "F:\\prakash\\global\\pages\\sections\\testimonials.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+
+var data = [{
+  name: 'Rahul',
+  comment: 'Fed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia.',
+  imgUrl: _components__WEBPACK_IMPORTED_MODULE_2__["Images"].testimonialImg,
+  imgUrl_2: _components__WEBPACK_IMPORTED_MODULE_2__["Images"].leftQuoteMark
+}, {
+  name: 'Rahul',
+  comment: 'Fed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia.',
+  imgUrl: _components__WEBPACK_IMPORTED_MODULE_2__["Images"].testimonialImg,
+  imgUrl_2: _components__WEBPACK_IMPORTED_MODULE_2__["Images"].leftQuoteMark
+}];
+/* harmony default export */ __webpack_exports__["default"] = (function (_ref) {
+  Object(_babel_runtime_corejs2_helpers_esm_objectDestructuringEmpty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref);
+
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx(_components__WEBPACK_IMPORTED_MODULE_2__["SubHeader"], {
+    subHeader: "What our customers say",
+    content: "\n                The history of this Wyoming plumbing service goes as far back as 1933. These were the times when Samuel Buick created and patented a first ever automatic machine for cleaning pipes and drains. He called it \"PlumberPro\" and founded a plumbing service with the initial capital which he earned thanks to his invention! Since then, the plumbing service he founded on par with that invention has stayed in that same family's ownership\n                ",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }), __jsx("div", {
+    className: "container lg:container-lg flex flex-col lg:flex-row items-center align-center justify-center mt-5",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }, data.map(function (item, index) {
+    return __jsx("div", {
+      className: "flex w-100 px-5 lg:w-1/3 mb-3 lg:mb-0",
+      key: index,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 32
+      },
+      __self: this
+    }, __jsx(_components__WEBPACK_IMPORTED_MODULE_2__["TestimonialCard"], {
+      imgSrc: item.imgUrl,
+      name: item.name,
+      comment: item.comment,
+      imgSrc_2: item.imgUrl_2,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 33
+      },
+      __self: this
+    }));
+  })));
 });
 
 /***/ }),

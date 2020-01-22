@@ -4,6 +4,10 @@ import OurServices from './ourServices';
 import Brands from './brandsSection';
 import WorkingMechanism from './ourWorkingMechanism';
 import ReferAndEarn from './referAndEarnSection';
+import Testimonial from './testimonials';
+import RecentWorks from './recentWorksSection';
+import CountingSetion from './countingSetion';
+import BlogSection from './blogSection';
 
 export {
     OurApprochSection,
@@ -11,5 +15,9 @@ export {
     OurServices,
     Brands,
     WorkingMechanism,
-    ReferAndEarn
+    ReferAndEarn,
+    Testimonial,
+    RecentWorks,
+    CountingSetion,
+    BlogSection,
 }

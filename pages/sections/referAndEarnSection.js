@@ -13,7 +13,7 @@ export default ({onChange, submit}) => {
                 />
             </div>
             <div className="w-full lg:w-1/2 flex justify-center items-center flex-col text-left">
-                <h5>Refer And Eard</h5>
+                <h5>Refer And Earn</h5>
                 <p>
                     Refer any of our Electrical services and earn Rs.250 <br/>
                     Discount for you and your friend
