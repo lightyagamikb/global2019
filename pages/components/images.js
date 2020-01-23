@@ -22,7 +22,7 @@ const arrowRight = require('./../../assets/arrow-point-to-right.svg')
 const blog1 = require('./../../assets/blog-1.png')
 const blog2 = require('./../../assets/blog-2.png')
 const blog3 = require('./../../assets/blog-3.png')
-
+const quote = require('./../../assets/quote.svg')
 
 
 export default {
@@ -50,4 +50,5 @@ export default {
     blog1,
     blog2,
     blog3,
+    quote,
 }

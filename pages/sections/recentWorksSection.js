@@ -1,6 +1,6 @@
 import { SubHeader, Images } from './../components'
 
-const data = ['All', 'Fresh Wiring', 'Installation', 'Products', 'Repair', 'Ventures']
+const data = ['All', 'Fresh-Wiring', 'Installation', 'Products', 'Repair', 'Ventures']
 
 const imgData = Array(10).fill(null);
 

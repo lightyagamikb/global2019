@@ -8,6 +8,8 @@ import Testimonial from './testimonials';
 import RecentWorks from './recentWorksSection';
 import CountingSetion from './countingSetion';
 import BlogSection from './blogSection';
+import BookingProcess from './bookProcessSection';
+import SubmitDetails from './submitDetailsSection';
 
 export {
     OurApprochSection,
@@ -20,4 +22,6 @@ export {
     RecentWorks,
     CountingSetion,
     BlogSection,
+    BookingProcess,
+    SubmitDetails,
 }

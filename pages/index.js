@@ -4,7 +4,14 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import './../styles/index.css';
 import SliderComponent from './components/slider';
 import FullScreenComponent from './components/containerFullHeight';
-import { OurApprochSection, Poster, OurServices, Brands, WorkingMechanism, ReferAndEarn, Testimonial, RecentWorks, CountingSetion, BlogSection } from  './sections/index';
+import { 
+        OurApprochSection, Poster, 
+        OurServices, Brands, 
+        WorkingMechanism, ReferAndEarn, 
+        Testimonial, RecentWorks,
+        CountingSetion, BlogSection,
+        BookingProcess, SubmitDetails
+    } from  './sections/index';
 
 
 export default () => (
@@ -58,7 +65,7 @@ export default () => (
             </div>
         </section>
         <section className="bg-gray-900">
-            <div className="container mx-auto py- w-full md:max-w-3xl lg:max-w-6xl m-auto p-5 justify-center flex flex-col">
+            <div className="container mx-auto w-full md:max-w-3xl lg:max-w-6xl m-auto p-5 justify-center flex flex-col">
                 <RecentWorks />
             </div>
         </section>
@@ -68,8 +75,19 @@ export default () => (
             </div>
         </section>
         <section>
-            <BlogSection />
+            <div className="container mx-auto w-full md:max-w-3xl lg:max-w-6xl m-auto p-5 justify-center flex flex-col">
+                <BlogSection />
+            </div>
         </section>
-
+        <section className="bg-gray-900">
+            <div className="container mx-auto w-full md:max-w-3xl lg:max-w-6xl m-auto p-5 justify-center flex flex-col py-8">
+                <BookingProcess />
+            </div>
+        </section>
+        <section className="bg-gray-800">
+            <div className="container mx-auto w-full md:max-w-3xl lg:max-w-6xl m-auto p-5 justify-center flex flex-col py-8 h-screen">
+                <SubmitDetails />
+            </div>
+        </section>
     </div>
 )

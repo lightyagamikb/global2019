@@ -4,6 +4,12 @@ $primary-color-dark:#354EA0;
 $secondary-color: #FCB02C;
 $white: #fff;
 $PromptFamily: 'Prompt', sans-serif;
+$SegoeUI: Segoe UI, sans-serif;
+
+
+.font-segoeUI {
+    font-family: $SegoeUI;
+}
 
 .container {
     padding-left: 15px;
@@ -156,4 +162,11 @@ body {
             max-width: 55%;
        }
     }
+}
+
+.our-mechanism-content {
+    color: #C9C9C9;
+    font-size: 16px;
+    font-weight: 300;
+    max-width: 280px
 }

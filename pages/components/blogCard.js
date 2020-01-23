@@ -1,17 +1,15 @@
-export default ({imgSrc, header, content, goTo}) => {
+export default ({imgSrc, header, content, goTo, imgAlt}) => {
     return (
-        <div className="max-w-sm rounded overflow-hidden shadow-lg">
-            <img className="w-full" src="https://tailwindcss.com/img/card-top.jpg" alt="Sunset in the mountains" />
-            <div className="px-6 py-4">
-                <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
-                <p className="text-gray-700 text-base">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+        <div className="w-full mx-2 lg:mx-4 lg:max-w-sm rounded overflow-hidden shadow-lg">
+            <img className="w-full" src={imgSrc} alt={imgAlt || 'blog-img'} />
+            <div className="px-6 py-4 font-segoeUI">
+            <div className="font-bold text-xl mb-2">{header}</div>
+                <p className="text-gray-700 text-base">                    
+                {content || 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.'}
                 </p>
             </div>
             <div className="px-6 py-4">
-                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#photography</span>
-                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#travel</span>
-                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">#winter</span>
+               <a className="cursor-pointer text-primary text-lg">Read More</a>
             </div>
         </div>
     )

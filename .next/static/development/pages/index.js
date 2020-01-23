@@ -165,6 +165,17 @@ module.exports = "/_next/static/images/phont-44d1e0dc8dca83f00d6d49fadaedbff2.pn
 
 /***/ }),
 
+/***/ "./assets/quote.svg":
+/*!**************************!*\
+  !*** ./assets/quote.svg ***!
+  \**************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMTIuNiIgaGVpZ2h0PSI4MC40MjgiIHZpZXdCb3g9IjAgMCAxMTIuNiA4MC40MjgiPjxkZWZzPjxzdHlsZT4uYXtmaWxsOiNmY2IwMmM7fTwvc3R5bGU+PC9kZWZzPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgLTQyLjY2NykiPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgNDIuNjY3KSI+PHBhdGggY2xhc3M9ImEiIGQ9Ik0wLDkwLjkyNEgyNC4xMjhMOC4wNDMsMTIzLjFIMzIuMTcxTDQ4LjI1Nyw5MC45MjRWNDIuNjY3SDBaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIC00Mi42NjcpIi8+PHBhdGggY2xhc3M9ImEiIGQ9Ik0xNzAuNjY3LDQyLjY2N1Y5MC45MjRIMTk0LjhMMTc4LjcxLDEyMy4xaDI0LjEyOGwxNi4wODYtMzIuMTcxVjQyLjY2N1oiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xMDYuMzI0IC00Mi42NjcpIi8+PC9nPjwvZz48L3N2Zz4="
+
+/***/ }),
+
 /***/ "./assets/rupee_black.svg":
 /*!********************************!*\
   !*** ./assets/rupee_black.svg ***!
@@ -12224,9 +12235,10 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
   var imgSrc = _ref.imgSrc,
       header = _ref.header,
       content = _ref.content,
-      goTo = _ref.goTo;
+      goTo = _ref.goTo,
+      imgAlt = _ref.imgAlt;
   return __jsx("div", {
-    className: "max-w-sm rounded overflow-hidden shadow-lg",
+    className: "w-full mx-2 lg:mx-4 lg:max-w-sm rounded overflow-hidden shadow-lg",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 3
@@ -12234,15 +12246,15 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: this
   }, __jsx("img", {
     className: "w-full",
-    src: "https://tailwindcss.com/img/card-top.jpg",
-    alt: "Sunset in the mountains",
+    src: imgSrc,
+    alt: imgAlt || 'blog-img',
     __source: {
       fileName: _jsxFileName,
       lineNumber: 4
     },
     __self: this
   }), __jsx("div", {
-    className: "px-6 py-4",
+    className: "px-6 py-4 font-segoeUI",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
@@ -12255,42 +12267,28 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
       lineNumber: 6
     },
     __self: this
-  }, "The Coldest Sunset"), __jsx("p", {
+  }, header), __jsx("p", {
     className: "text-gray-700 text-base",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
     },
     __self: this
-  }, "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.")), __jsx("div", {
+  }, content || 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.')), __jsx("div", {
     className: "px-6 py-4",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
     },
     __self: this
-  }, __jsx("span", {
-    className: "inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2",
+  }, __jsx("a", {
+    className: "cursor-pointer text-primary text-lg",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
     },
     __self: this
-  }, "#photography"), __jsx("span", {
-    className: "inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: this
-  }, "#travel"), __jsx("span", {
-    className: "inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: this
-  }, "#winter")));
+  }, "Read More")));
 });
 
 /***/ }),
@@ -12342,48 +12340,53 @@ var _jsxFileName = "F:\\prakash\\global\\pages\\components\\hoverCards.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
-/* harmony default export */ __webpack_exports__["default"] = (function (props) {
+/* harmony default export */ __webpack_exports__["default"] = (function (_ref) {
+  var imgSrc = _ref.imgSrc,
+      ImgScrHover = _ref.ImgScrHover,
+      header = _ref.header,
+      info = _ref.info,
+      bgNone = _ref.bgNone;
   return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx("div", {
-    className: "jsx-3576074268" + " " + "flex p-4 justify-center hover-card border flex-col text-center",
+    className: "jsx-2233132871" + " " + "flex justify-center hover-card flex-col text-center mx-3 pt-2 ".concat(bgNone ? 'bg-transparent text-white' : ''),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
     },
     __self: this
   }, __jsx("img", {
-    src: _images__WEBPACK_IMPORTED_MODULE_2__["default"].multimeter_blue,
-    className: "jsx-3576074268" + " " + "img-hover-hide",
+    src: imgSrc || _images__WEBPACK_IMPORTED_MODULE_2__["default"].multimeter_blue,
+    className: "jsx-2233132871" + " " + "img-hover-hide",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
     },
     __self: this
   }), __jsx("img", {
-    src: _images__WEBPACK_IMPORTED_MODULE_2__["default"].multimeter_white,
-    className: "jsx-3576074268" + " " + 'img-hover-show',
+    src: ImgScrHover || _images__WEBPACK_IMPORTED_MODULE_2__["default"].multimeter_white,
+    className: "jsx-2233132871" + " " + 'img-hover-show',
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
     },
     __self: this
   }), __jsx("h2", {
-    className: "jsx-3576074268" + " " + "my-2",
+    className: "jsx-2233132871" + " " + "my-2",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
     },
     __self: this
-  }, "header"), __jsx("p", {
-    className: "jsx-3576074268",
+  }, header || 'header'), __jsx("p", {
+    className: "jsx-2233132871",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16
     },
     __self: this
-  }, "Mastering the supply with the requirements")), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "3576074268",
+  }, info || 'Mastering the supply with the requirements')), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    id: "2233132871",
     __self: this
-  }, ".hover-card.jsx-3576074268:hover{border:1px solid;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkY6XFxwcmFrYXNoXFxnbG9iYWxcXHBhZ2VzXFxjb21wb25lbnRzXFxob3ZlckNhcmRzLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQW9CYSxBQUdzQyxpQkFDckIiLCJmaWxlIjoiRjpcXHByYWthc2hcXGdsb2JhbFxccGFnZXNcXGNvbXBvbmVudHNcXGhvdmVyQ2FyZHMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgSW1hZ2VzIGZyb20gJy4vaW1hZ2VzJztcclxuXHJcbmV4cG9ydCBkZWZhdWx0IHByb3BzID0+IHtcclxuICAgIHJldHVybiAoXHJcbiAgICAgICAgPD5cclxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImZsZXggcC00IGp1c3RpZnktY2VudGVyIGhvdmVyLWNhcmQgYm9yZGVyIGZsZXgtY29sIHRleHQtY2VudGVyXCI+XHJcbiAgICAgICAgICAgIDxpbWdcclxuICAgICAgICAgICAgICAgIGNsYXNzTmFtZT1cImltZy1ob3Zlci1oaWRlXCJcclxuICAgICAgICAgICAgICAgIHNyYz17SW1hZ2VzLm11bHRpbWV0ZXJfYmx1ZX1cclxuICAgICAgICAgICAgLz5cclxuICAgICAgICAgICAgPGltZyBcclxuICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0naW1nLWhvdmVyLXNob3cnICAgICAgICAgICAgICAgXHJcbiAgICAgICAgICAgICAgICBzcmM9e0ltYWdlcy5tdWx0aW1ldGVyX3doaXRlfVxyXG4gICAgICAgICAgICAvPlxyXG4gICAgICAgICAgICA8aDIgY2xhc3NOYW1lPVwibXktMlwiPmhlYWRlcjwvaDI+XHJcbiAgICAgICAgICAgIDxwPlxyXG4gICAgICAgICAgICAgICAgTWFzdGVyaW5nIHRoZSBzdXBwbHkgd2l0aCB0aGUgcmVxdWlyZW1lbnRzXHJcbiAgICAgICAgICAgIDwvcD5cclxuICAgICAgICA8L2Rpdj5cclxuICAgICAgICA8c3R5bGUganN4PlxyXG4gICAgICAgICAgICB7YFxyXG4gICAgICAgICAgICAgICAgLmhvdmVyLWNhcmQ6aG92ZXIgeyAgICAgICAgICAgICAgICAgICAgXHJcbiAgICAgICAgICAgICAgICAgICAgYm9yZGVyOiAxcHggc29saWQ7XHJcbiAgICAgICAgICAgICAgICB9XHJcbiAgICAgICAgICAgIGB9XHJcbiAgICAgICAgPC9zdHlsZT5cclxuICAgICAgICA8Lz5cclxuICAgIClcclxufVxyXG5cclxuIl19 */\n/*@ sourceURL=F:\\\\prakash\\\\global\\\\pages\\\\components\\\\hoverCards.js */"));
+  }, "\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkY6XFxwcmFrYXNoXFxnbG9iYWxcXHBhZ2VzXFxjb21wb25lbnRzXFxob3ZlckNhcmRzLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQXNCYSIsImZpbGUiOiJGOlxccHJha2FzaFxcZ2xvYmFsXFxwYWdlc1xcY29tcG9uZW50c1xcaG92ZXJDYXJkcy5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBJbWFnZXMgZnJvbSAnLi9pbWFnZXMnO1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgKHtpbWdTcmMsIEltZ1NjckhvdmVyLCBoZWFkZXIsIGluZm8sIGJnTm9uZX0pID0+IHtcclxuICAgIHJldHVybiAoXHJcbiAgICAgICAgPD5cclxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT17YGZsZXgganVzdGlmeS1jZW50ZXIgaG92ZXItY2FyZCBmbGV4LWNvbCB0ZXh0LWNlbnRlciBteC0zIHB0LTIgJHtiZ05vbmUgPyAnYmctdHJhbnNwYXJlbnQgdGV4dC13aGl0ZSc6ICcnfWB9PlxyXG4gICAgICAgICAgICA8aW1nXHJcbiAgICAgICAgICAgICAgICBjbGFzc05hbWU9XCJpbWctaG92ZXItaGlkZVwiXHJcbiAgICAgICAgICAgICAgICBzcmM9e2ltZ1NyYyB8fCBJbWFnZXMubXVsdGltZXRlcl9ibHVlfVxyXG4gICAgICAgICAgICAvPlxyXG4gICAgICAgICAgICA8aW1nIFxyXG4gICAgICAgICAgICAgICAgY2xhc3NOYW1lPSdpbWctaG92ZXItc2hvdycgICAgICAgICAgICAgICBcclxuICAgICAgICAgICAgICAgIHNyYz17SW1nU2NySG92ZXIgfHwgSW1hZ2VzLm11bHRpbWV0ZXJfd2hpdGV9XHJcbiAgICAgICAgICAgIC8+XHJcbiAgICAgICAgICAgIDxoMiBjbGFzc05hbWU9XCJteS0yXCI+e2hlYWRlciB8fCAnaGVhZGVyJ308L2gyPlxyXG4gICAgICAgICAgICA8cD5cclxuICAgICAgICAgICAgICAge1xyXG4gICAgICAgICAgICAgICAgICAgaW5mbyB8fCAnTWFzdGVyaW5nIHRoZSBzdXBwbHkgd2l0aCB0aGUgcmVxdWlyZW1lbnRzJ1xyXG4gICAgICAgICAgICAgICB9XHJcbiAgICAgICAgICAgIDwvcD5cclxuICAgICAgICA8L2Rpdj5cclxuICAgICAgICA8c3R5bGUganN4PlxyXG4gICAgICAgICAgICB7YFxyXG4gICAgICAgICAgICAgICAgLmhvdmVyLWNhcmQ6aG92ZXIgeyAgICAgICAgICAgICAgICAgICAgXHJcbiAgICBcclxuICAgICAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgYH1cclxuICAgICAgICA8L3N0eWxlPlxyXG4gICAgICAgIDwvPlxyXG4gICAgKVxyXG59XHJcblxyXG4iXX0= */\n/*@ sourceURL=F:\\\\prakash\\\\global\\\\pages\\\\components\\\\hoverCards.js */"));
 });
 
 /***/ }),
@@ -12445,6 +12448,8 @@ var blog2 = __webpack_require__(/*! ./../../assets/blog-2.png */ "./assets/blog-
 
 var blog3 = __webpack_require__(/*! ./../../assets/blog-3.png */ "./assets/blog-3.png");
 
+var quote = __webpack_require__(/*! ./../../assets/quote.svg */ "./assets/quote.svg");
+
 /* harmony default export */ __webpack_exports__["default"] = ({
   multimeter_blue: multimeter_blue,
   multimeter_white: multimeter_white,
@@ -12469,7 +12474,8 @@ var blog3 = __webpack_require__(/*! ./../../assets/blog-3.png */ "./assets/blog-
   arrowRight: arrowRight,
   blog1: blog1,
   blog2: blog2,
-  blog3: blog3
+  blog3: blog3,
+  quote: quote
 });
 
 /***/ }),
@@ -12478,7 +12484,7 @@ var blog3 = __webpack_require__(/*! ./../../assets/blog-3.png */ "./assets/blog-
 /*!***********************************!*\
   !*** ./pages/components/index.js ***!
   \***********************************/
-/*! exports provided: HoverCardComponent, SubHeader, Header, OurServicesCard, Images, Mechanism, TestimonialCard, CountCard, BlogCard */
+/*! exports provided: HoverCardComponent, SubHeader, Header, OurServicesCard, Images, Mechanism, TestimonialCard, CountCard, BlogCard, SubmitForm, Input */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12512,6 +12518,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _blogCard__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./blogCard */ "./pages/components/blogCard.js");
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "BlogCard", function() { return _blogCard__WEBPACK_IMPORTED_MODULE_9__["default"]; });
 
+/* harmony import */ var _submitFormComponent__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./submitFormComponent */ "./pages/components/submitFormComponent.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SubmitForm", function() { return _submitFormComponent__WEBPACK_IMPORTED_MODULE_10__["default"]; });
+
+/* harmony import */ var _inputComponent__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./inputComponent */ "./pages/components/inputComponent.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Input", function() { return _inputComponent__WEBPACK_IMPORTED_MODULE_11__["default"]; });
 
 
 
@@ -12523,6 +12534,50 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
+
+
+
+/***/ }),
+
+/***/ "./pages/components/inputComponent.js":
+/*!********************************************!*\
+  !*** ./pages/components/inputComponent.js ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "F:\\prakash\\global\\pages\\components\\inputComponent.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+/* harmony default export */ __webpack_exports__["default"] = (function (_ref) {
+  var styles = _ref.styles,
+      classes = _ref.classes,
+      type = _ref.type,
+      placeholder = _ref.placeholder,
+      _onChange = _ref.onChange,
+      id = _ref.id,
+      error = _ref.error;
+  return __jsx("input", {
+    style: styles,
+    className: "shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline ".concat(error ? 'text-red-500' : ''),
+    id: id,
+    type: type || "text",
+    placeholder: placeholder || "",
+    onChange: function onChange() {
+      if (typeof onchange === 'function') _onChange();
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 2
+    },
+    __self: this
+  });
+});
 
 /***/ }),
 
@@ -12863,6 +12918,167 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 /***/ }),
 
+/***/ "./pages/components/submitFormComponent.js":
+/*!*************************************************!*\
+  !*** ./pages/components/submitFormComponent.js ***!
+  \*************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return SubmitForm; });
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var ___WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./ */ "./pages/components/index.js");
+
+
+
+
+
+
+
+var _jsxFileName = "F:\\prakash\\global\\pages\\components\\submitFormComponent.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement;
+
+
+
+var SubmitForm =
+/*#__PURE__*/
+function (_React$Component) {
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__["default"])(SubmitForm, _React$Component);
+
+  function SubmitForm() {
+    var _getPrototypeOf2;
+
+    var _this;
+
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, SubmitForm);
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, (_getPrototypeOf2 = Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(SubmitForm)).call.apply(_getPrototypeOf2, [this].concat(args)));
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "stata", {});
+
+    return _this;
+  }
+
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(SubmitForm, [{
+    key: "render",
+    value: function render() {
+      return __jsx("div", {
+        className: "w-full max-w-xs bg-primary text-white py-3 text-center rounded-lg pb-0",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 13
+        },
+        __self: this
+      }, __jsx("div", {
+        className: "text-white text-lg font-semibold",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14
+        },
+        __self: this
+      }, "Book Now"), __jsx("form", {
+        className: "px-8 pt-6",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 15
+        },
+        __self: this
+      }, __jsx("div", {
+        className: "mb-4",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16
+        },
+        __self: this
+      }, __jsx(___WEBPACK_IMPORTED_MODULE_8__["Input"], {
+        placeholder: "Name",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17
+        },
+        __self: this
+      })), __jsx("div", {
+        className: "mb-4",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21
+        },
+        __self: this
+      }, __jsx(___WEBPACK_IMPORTED_MODULE_8__["Input"], {
+        placeholder: "Contact Number +91",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22
+        },
+        __self: this
+      })), __jsx("div", {
+        className: "mb-4",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 26
+        },
+        __self: this
+      }, __jsx(___WEBPACK_IMPORTED_MODULE_8__["Input"], {
+        placeholder: "Email Id",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27
+        },
+        __self: this
+      })), __jsx("div", {
+        className: "mb-4",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 31
+        },
+        __self: this
+      }, __jsx(___WEBPACK_IMPORTED_MODULE_8__["Input"], {
+        placeholder: "Location",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 32
+        },
+        __self: this
+      })), __jsx("div", {
+        className: "flex items-center justify-between -mx-8 mt-4",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 36
+        },
+        __self: this
+      }, __jsx("button", {
+        className: "bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-none focus:outline-none focus:shadow-outline w-full rounded-b-lg",
+        type: "button",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 37
+        },
+        __self: this
+      }, "SUBMIT"))));
+    }
+  }]);
+
+  return SubmitForm;
+}(react__WEBPACK_IMPORTED_MODULE_7___default.a.Component);
+
+
+
+/***/ }),
+
 /***/ "./pages/components/testimonialCard.js":
 /*!*********************************************!*\
   !*** ./pages/components/testimonialCard.js ***!
@@ -12976,231 +13192,278 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
   return __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 18
     },
     __self: this
   }, __jsx(_components__WEBPACK_IMPORTED_MODULE_2__["Header"], {
     isHome: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 19
     },
     __self: this
   }), __jsx("section", {
     className: "slider-section",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 20
     },
     __self: this
   }, __jsx("div", {
     className: "w-full",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 22
     },
     __self: this
   })), __jsx("section", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 27
     },
     __self: this
   }, __jsx("div", {
     className: "w-full max-w-full md:max-w-3xl lg:max-w-6xl m-auto p-5",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 28
     },
     __self: this
   }, __jsx(_sections_index__WEBPACK_IMPORTED_MODULE_7__["OurApprochSection"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 29
     },
     __self: this
   }))), __jsx("section", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 32
     },
     __self: this
   }, __jsx(_sections_index__WEBPACK_IMPORTED_MODULE_7__["Poster"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 33
     },
     __self: this
   })), __jsx("section", {
     className: "our-services-section bg-gray-900",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 35
     },
     __self: this
   }, __jsx("div", {
     className: "w-full md:max-w-3xl lg:max-w-6xl m-auto p-5",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 36
     },
     __self: this
   }, __jsx(_sections_index__WEBPACK_IMPORTED_MODULE_7__["OurServices"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 37
     },
     __self: this
   }))), __jsx("section", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "need-help-wrapper my-16",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34
-    },
-    __self: this
-  }, __jsx("h4", {
-    className: "text-white text-3xl text-center font-semibold bg-primary py-2",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35
-    },
-    __self: this
-  }, "Need any help ? Call 7032278270"))), __jsx("section", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 40
     },
     __self: this
   }, __jsx("div", {
-    className: "brands-use w-full md:max-w-3xl lg:max-w-6xl m-auto p-5 border-4 pt-0",
+    className: "need-help-wrapper my-16",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 41
     },
     __self: this
-  }, __jsx(_sections_index__WEBPACK_IMPORTED_MODULE_7__["Brands"], {
+  }, __jsx("h4", {
+    className: "text-white text-3xl text-center font-semibold bg-primary py-2",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 42
+    },
+    __self: this
+  }, "Need any help ? Call 7032278270"))), __jsx("section", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "brands-use w-full md:max-w-3xl lg:max-w-6xl m-auto p-5 border-4 pt-0",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    },
+    __self: this
+  }, __jsx(_sections_index__WEBPACK_IMPORTED_MODULE_7__["Brands"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
     },
     __self: this
   }))), __jsx("section", {
     className: "bg-gray-900",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 52
     },
     __self: this
   }, __jsx("div", {
     className: "container mx-auto py-6",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 53
     },
     __self: this
   }, __jsx(_sections_index__WEBPACK_IMPORTED_MODULE_7__["WorkingMechanism"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 54
     },
     __self: this
   }))), __jsx("section", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 57
     },
     __self: this
   }, __jsx("div", {
     className: "container mx-auto py-6 h-screen",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51
+      lineNumber: 58
     },
     __self: this
   }, __jsx(_sections_index__WEBPACK_IMPORTED_MODULE_7__["ReferAndEarn"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 59
     },
     __self: this
   }))), __jsx("section", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55
+      lineNumber: 62
     },
     __self: this
   }, __jsx("div", {
     className: "container mx-auto py-6 lg:h-screen w-full md:max-w-3xl lg:max-w-6xl m-auto p-5 justify-center flex flex-col",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 63
     },
     __self: this
   }, __jsx(_sections_index__WEBPACK_IMPORTED_MODULE_7__["Testimonial"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57
+      lineNumber: 64
     },
     __self: this
   }))), __jsx("section", {
     className: "bg-gray-900",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60
+      lineNumber: 67
     },
     __self: this
   }, __jsx("div", {
-    className: "container mx-auto py- w-full md:max-w-3xl lg:max-w-6xl m-auto p-5 justify-center flex flex-col",
+    className: "container mx-auto w-full md:max-w-3xl lg:max-w-6xl m-auto p-5 justify-center flex flex-col",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61
+      lineNumber: 68
     },
     __self: this
   }, __jsx(_sections_index__WEBPACK_IMPORTED_MODULE_7__["RecentWorks"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62
+      lineNumber: 69
     },
     __self: this
   }))), __jsx("section", {
     className: "bg-primary",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65
+      lineNumber: 72
     },
     __self: this
   }, __jsx("div", {
     className: "container mx-auto w-full md:max-w-3xl lg:max-w-6xl m-auto justify-center flex flex-col",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 66
+      lineNumber: 73
     },
     __self: this
   }, __jsx(_sections_index__WEBPACK_IMPORTED_MODULE_7__["CountingSetion"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 67
+      lineNumber: 74
     },
     __self: this
   }))), __jsx("section", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70
+      lineNumber: 77
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "container mx-auto w-full md:max-w-3xl lg:max-w-6xl m-auto p-5 justify-center flex flex-col",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 78
     },
     __self: this
   }, __jsx(_sections_index__WEBPACK_IMPORTED_MODULE_7__["BlogSection"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71
+      lineNumber: 79
     },
     __self: this
-  })));
+  }))), __jsx("section", {
+    className: "bg-gray-900",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 82
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "container mx-auto w-full md:max-w-3xl lg:max-w-6xl m-auto p-5 justify-center flex flex-col py-8",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 83
+    },
+    __self: this
+  }, __jsx(_sections_index__WEBPACK_IMPORTED_MODULE_7__["BookingProcess"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 84
+    },
+    __self: this
+  }))), __jsx("section", {
+    className: "bg-gray-800",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 87
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "container mx-auto w-full md:max-w-3xl lg:max-w-6xl m-auto p-5 justify-center flex flex-col py-8 h-screen",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 88
+    },
+    __self: this
+  }, __jsx(_sections_index__WEBPACK_IMPORTED_MODULE_7__["SubmitDetails"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 89
+    },
+    __self: this
+  }))));
 });
 
 /***/ }),
@@ -13223,25 +13486,136 @@ var _jsxFileName = "F:\\prakash\\global\\pages\\sections\\blogSection.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
-var data = [1, 2, 3];
+var data = Array(3).fill(null).map(function (d, i) {
+  return {
+    imgSrc: _components__WEBPACK_IMPORTED_MODULE_2__["Images"]["blog".concat(i + 1)],
+    header: 'What Our Customer',
+    content: "The history of this Wyoming plumbing service goes as far back as 1933. These were the times when Samuel Buick created and patented a first ever automatic machine for cleaning pipes",
+    goTo: '',
+    imgAlt: 'blog-img'
+  };
+});
 /* harmony default export */ __webpack_exports__["default"] = (function (_ref) {
   Object(_babel_runtime_corejs2_helpers_esm_objectDestructuringEmpty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref);
 
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx(_components__WEBPACK_IMPORTED_MODULE_2__["SubHeader"], {
+    subHeader: "Blog",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }), __jsx("div", {
+    className: "flex flex-col lg:flex-row justify-center items-cener",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }, data.map(function (i) {
+    return __jsx(_components__WEBPACK_IMPORTED_MODULE_2__["BlogCard"], {
+      imgSrc: i.imgSrc,
+      header: i.header,
+      content: i.content,
+      goTo: i.goTo,
+      imgAlt: i.imgAlt,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 21
+      },
+      __self: this
+    });
+  })));
+});
+
+/***/ }),
+
+/***/ "./pages/sections/bookProcessSection.js":
+/*!**********************************************!*\
+  !*** ./pages/sections/bookProcessSection.js ***!
+  \**********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../components */ "./pages/components/index.js");
+var _jsxFileName = "F:\\prakash\\global\\pages\\sections\\bookProcessSection.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+/* harmony default export */ __webpack_exports__["default"] = (function () {
   return __jsx("div", {
+    className: "flex flex-col lg:flex-row",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "flex flex-col w-100 lg:w-1/3 max-w-sm justify-center",
+    style: {
+      paddingLeft: 48
+    },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
     },
     __self: this
-  }, data.map(function (i) {
-    return __jsx(_components__WEBPACK_IMPORTED_MODULE_2__["BlogCard"], {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 8
-      },
-      __self: this
-    });
-  }));
+  }, __jsx("h4", {
+    className: "text-white text-3xl mb-3 text-semibold",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, "Our Working ", __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }), "Mechanism"), __jsx("p", {
+    className: "our-mechanism-content",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, "The history of this Wyoming plumbing service goes as far back as 1933. These were the times when Samuel Buick creautomatic machine")), __jsx("div", {
+    className: "flex flex-col lg:flex-row w-full lg:w-2/3 ml-auto",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, __jsx(_components__WEBPACK_IMPORTED_MODULE_1__["HoverCardComponent"], {
+    bgNone: true,
+    imgSrc: _components__WEBPACK_IMPORTED_MODULE_1__["Images"].multimeter_white,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }), __jsx(_components__WEBPACK_IMPORTED_MODULE_1__["HoverCardComponent"], {
+    bgNone: true,
+    imgSrc: _components__WEBPACK_IMPORTED_MODULE_1__["Images"].multimeter_white,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }), __jsx(_components__WEBPACK_IMPORTED_MODULE_1__["HoverCardComponent"], {
+    bgNone: true,
+    imgSrc: _components__WEBPACK_IMPORTED_MODULE_1__["Images"].multimeter_white,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  })));
 });
 
 /***/ }),
@@ -13396,7 +13770,7 @@ var data = [{
   Object(_babel_runtime_corejs2_helpers_esm_objectDestructuringEmpty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref);
 
   return __jsx("div", {
-    className: "flex justify-between align-center",
+    className: "flex justify-between align-center flex-col lg:flex-row",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23
@@ -13421,7 +13795,7 @@ var data = [{
 /*!*********************************!*\
   !*** ./pages/sections/index.js ***!
   \*********************************/
-/*! exports provided: OurApprochSection, Poster, OurServices, Brands, WorkingMechanism, ReferAndEarn, Testimonial, RecentWorks, CountingSetion, BlogSection */
+/*! exports provided: OurApprochSection, Poster, OurServices, Brands, WorkingMechanism, ReferAndEarn, Testimonial, RecentWorks, CountingSetion, BlogSection, BookingProcess, SubmitDetails */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13455,6 +13829,14 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony import */ var _blogSection__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./blogSection */ "./pages/sections/blogSection.js");
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "BlogSection", function() { return _blogSection__WEBPACK_IMPORTED_MODULE_9__["default"]; });
+
+/* harmony import */ var _bookProcessSection__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./bookProcessSection */ "./pages/sections/bookProcessSection.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "BookingProcess", function() { return _bookProcessSection__WEBPACK_IMPORTED_MODULE_10__["default"]; });
+
+/* harmony import */ var _submitDetailsSection__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./submitDetailsSection */ "./pages/sections/submitDetailsSection.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SubmitDetails", function() { return _submitDetailsSection__WEBPACK_IMPORTED_MODULE_11__["default"]; });
+
+
 
 
 
@@ -13750,7 +14132,7 @@ var _jsxFileName = "F:\\prakash\\global\\pages\\sections\\recentWorksSection.js"
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
-var data = ['All', 'Fresh Wiring', 'Installation', 'Products', 'Repair', 'Ventures'];
+var data = ['All', 'Fresh-Wiring', 'Installation', 'Products', 'Repair', 'Ventures'];
 var imgData = Array(10).fill(null);
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(_components__WEBPACK_IMPORTED_MODULE_1__["SubHeader"], {
@@ -13951,6 +14333,99 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
     },
     __self: this
   }, "go")))));
+});
+
+/***/ }),
+
+/***/ "./pages/sections/submitDetailsSection.js":
+/*!************************************************!*\
+  !*** ./pages/sections/submitDetailsSection.js ***!
+  \************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../components */ "./pages/components/index.js");
+var _jsxFileName = "F:\\prakash\\global\\pages\\sections\\submitDetailsSection.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  return __jsx("div", {
+    className: "w-full h-full flex justify-center items-center flex-col lg:flex-row",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "flex flex-col flex-1",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "text-3xl text-white",
+    style: {
+      marginLeft: '40%'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, "Electricity is the ", __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }), " only source ", __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }), " to power up ", __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }), " the future"), __jsx("div", {
+    className: "ml-auto",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, __jsx("img", {
+    src: _components__WEBPACK_IMPORTED_MODULE_1__["Images"].quote,
+    alt: "img",
+    className: "w-24 h-24",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }))), __jsx("div", {
+    className: "flex-1",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, __jsx(_components__WEBPACK_IMPORTED_MODULE_1__["SubmitForm"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  })));
 });
 
 /***/ }),

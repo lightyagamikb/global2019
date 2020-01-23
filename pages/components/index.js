@@ -8,6 +8,8 @@ import Mechanism from './mechanismCard';
 import TestimonialCard from './testimonialCard';
 import CountCard from './numberCounts';
 import BlogCard from './blogCard';
+import SubmitForm from './submitFormComponent';
+import Input from './inputComponent';
 
 
 export {
@@ -19,5 +21,7 @@ export {
     Mechanism,
     TestimonialCard,
     CountCard,
-    BlogCard
+    BlogCard, 
+    SubmitForm,
+    Input
 }

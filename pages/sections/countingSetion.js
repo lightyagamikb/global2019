@@ -20,7 +20,7 @@ const data = [
 ]
 
 export default ({}) => (
-    <div className="flex justify-between align-center">
+    <div className="flex justify-between align-center flex-col lg:flex-row">
         {
             data.map(item => <CountCard title={item.title} count={item.count} />)
         }

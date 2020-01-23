@@ -5,3 +5,11 @@
 .header {
   @apply bg-blue-500 p-12;
 }
+
+html {
+  @apply text-gray-900 antialiased;
+}
+
+body {
+  @apply min-h-screen;
+}
