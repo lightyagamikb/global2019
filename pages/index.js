@@ -10,7 +10,8 @@ import {
         WorkingMechanism, ReferAndEarn, 
         Testimonial, RecentWorks,
         CountingSetion, BlogSection,
-        BookingProcess, SubmitDetails
+        BookingProcess, SubmitDetails,
+        Footer
     } from  './sections/index';
 
 
@@ -87,6 +88,11 @@ export default () => (
         <section className="bg-gray-800">
             <div className="container mx-auto w-full md:max-w-3xl lg:max-w-6xl m-auto p-5 justify-center flex flex-col py-8 h-screen">
                 <SubmitDetails />
+            </div>
+        </section>
+        <section className="bg-gray-900">
+            <div className="container mx-auto w-full md:max-w-3xl lg:max-w-6xl m-auto p-5 justify-center flex flex-col py-8">
+                <Footer />
             </div>
         </section>
     </div>

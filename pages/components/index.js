@@ -10,6 +10,7 @@ import CountCard from './numberCounts';
 import BlogCard from './blogCard';
 import SubmitForm from './submitFormComponent';
 import Input from './inputComponent';
+import FooterContent from './footerInfoComponents'
 
 
 export {
@@ -23,5 +24,6 @@ export {
     CountCard,
     BlogCard, 
     SubmitForm,
-    Input
+    Input,
+    FooterContent
 }

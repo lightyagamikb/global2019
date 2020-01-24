@@ -10,6 +10,7 @@ import CountingSetion from './countingSetion';
 import BlogSection from './blogSection';
 import BookingProcess from './bookProcessSection';
 import SubmitDetails from './submitDetailsSection';
+import Footer from './footer';
 
 export {
     OurApprochSection,
@@ -24,4 +25,5 @@ export {
     BlogSection,
     BookingProcess,
     SubmitDetails,
+    Footer
 }
